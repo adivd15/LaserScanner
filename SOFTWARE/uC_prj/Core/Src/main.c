@@ -19,9 +19,11 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "usb_device.h"
-
+#include "string.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
+#include <string.h>
 
 /* USER CODE END Includes */
 
@@ -66,7 +68,8 @@ static void MX_ADC1_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+  uint16_t sensor_reading;
+  char msg[30];
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -98,7 +101,15 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    CDC_Transmit_FS("Fut mame", 9);
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1,300);
+    sensor_reading = HAL_ADC_GetValue(&hadc1);
+    float vin_sensor = (float)sensor_reading*(3.3/4096);
+    float distance = (float)27/vin_sensor;
+    int whole = distance;
+    int remainder = (distance - whole) * 1000;
+    sprintf(msg,"Tensiune: %d.%d\r\n",whole,remainder);
+    CDC_Transmit_FS((uint8_t*)msg, strlen(msg));
     HAL_Delay(500);
     /* USER CODE BEGIN 3 */
   }

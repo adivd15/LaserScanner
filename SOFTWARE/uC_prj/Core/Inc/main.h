@@ -57,6 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define Motor1_directionPin_Pin GPIO_PIN_1
+#define Motor1_directionPin_GPIO_Port GPIOA
+#define Motor1_stepPin_Pin GPIO_PIN_2
+#define Motor1_stepPin_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

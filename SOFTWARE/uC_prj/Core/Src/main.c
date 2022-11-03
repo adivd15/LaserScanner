@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <SRV_MotorControl_swcpma.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -85,20 +85,18 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  HAL_GPIO_WritePin(GPIOA,Motor1_directionPin_Pin,GPIO_PIN_SET);
+  uint8_t success = motorControl_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    HAL_GPIO_WritePin(GPIOA,Motor1_stepPin_Pin,GPIO_PIN_SET);
-    HAL_Delay(10);
-    HAL_GPIO_WritePin(GPIOA,Motor1_stepPin_Pin,GPIO_PIN_RESET);
-    HAL_Delay(10);
+    motorControl_main();
   }
   /* USER CODE END 3 */
 }
@@ -152,10 +150,10 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, Motor1_directionPin_Pin|Motor1_stepPin_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, Motor1_dirPin_Pin|Motor1_stepPin_Pin|Motor2_dirPin_Pin|Motor2_stepPin_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : Motor1_directionPin_Pin Motor1_stepPin_Pin */
-  GPIO_InitStruct.Pin = Motor1_directionPin_Pin|Motor1_stepPin_Pin;
+  /*Configure GPIO pins : Motor1_dirPin_Pin Motor1_stepPin_Pin Motor2_dirPin_Pin Motor2_stepPin_Pin */
+  GPIO_InitStruct.Pin = Motor1_dirPin_Pin|Motor1_stepPin_Pin|Motor2_dirPin_Pin|Motor2_stepPin_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;

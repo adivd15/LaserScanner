@@ -22,9 +22,9 @@
 typedef struct SRV_MotorControl_def_motor
 {
     uint16_t motor_dirPin;
-    uint8_t motor_dirPort;
+    GPIO_TypeDef* motor_dirPort;
     uint16_t motor_stepPin;
-    uint8_t motor_stepPort;
+    GPIO_TypeDef* motor_stepPort;
     uint8_t controlMotor;
     uint8_t motorPos;
 }SRV_MotorControl_def_motor;

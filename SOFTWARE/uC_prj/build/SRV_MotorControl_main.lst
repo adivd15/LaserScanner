@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s 			page 1
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s 			page 1
   30:SRV_MotorControl/SRC/SRV_MotorControl_main.c **** /**
   31:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****  * @brief Initialization function for srv_motorControl
   32:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****  * 
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s 			page 2
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s 			page 2
 
 
   33:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****  * @return 1 if initialization succesfull
@@ -69,10 +69,10 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s 			page 1
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 0
   30              		@ frame_needed = 0, uses_anonymous_args = 0
-  31 0000 10B5     		push	{r4, lr}
+  31 0000 08B5     		push	{r3, lr}
   32              	.LCFI0:
   33              		.cfi_def_cfa_offset 8
-  34              		.cfi_offset 4, -8
+  34              		.cfi_offset 3, -8
   35              		.cfi_offset 14, -4
   37:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     uint8_t initSuccess;
   36              		.loc 1 37 5 view .LVU1
@@ -84,134 +84,133 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s 			page 1
   41:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     connectedMotors[0].motor_dirPin = Motor1_dirPin;
   39              		.loc 1 41 5 view .LVU3
   40              		.loc 1 41 37 is_stmt 0 view .LVU4
-  41 0002 074B     		ldr	r3, .L3
+  41 0002 064B     		ldr	r3, .L3
   42 0004 0821     		movs	r1, #8
   43 0006 1980     		strh	r1, [r3]	@ movhi
   42:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     connectedMotors[0].motor_dirPort = Motor1_dirPort;
   44              		.loc 1 42 5 is_stmt 1 view .LVU5
   45              		.loc 1 42 38 is_stmt 0 view .LVU6
-  46 0008 0024     		movs	r4, #0
-  47 000a 9C70     		strb	r4, [r3, #2]
+  46 0008 0548     		ldr	r0, .L3+4
+  47 000a 5860     		str	r0, [r3, #4]
   43:SRV_MotorControl/SRC/SRV_MotorControl_main.c **** 
   44:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     connectedMotors[0].motor_stepPin = Motor1_stepPin;
   48              		.loc 1 44 5 is_stmt 1 view .LVU7
   49              		.loc 1 44 38 is_stmt 0 view .LVU8
   50 000c 1022     		movs	r2, #16
-  51 000e 9A80     		strh	r2, [r3, #4]	@ movhi
+  51 000e 1A81     		strh	r2, [r3, #8]	@ movhi
   45:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     connectedMotors[0].motor_stepPort = Motor1_stepPort;
   52              		.loc 1 45 5 is_stmt 1 view .LVU9
   53              		.loc 1 45 39 is_stmt 0 view .LVU10
-  54 0010 9C71     		strb	r4, [r3, #6]
+  54 0010 D860     		str	r0, [r3, #12]
   46:SRV_MotorControl/SRC/SRV_MotorControl_main.c **** 
-  47:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,GPIO_PIN_SET);
+  47:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     HAL_GPIO_WritePin(connectedMotors[0].motor_dirPort,connectedMotors[0].motor_dirPin,GPIO_PIN_SET
   55              		.loc 1 47 5 is_stmt 1 view .LVU11
   56 0012 0122     		movs	r2, #1
-  57 0014 0348     		ldr	r0, .L3+4
-  58 0016 FFF7FEFF 		bl	HAL_GPIO_WritePin
-  59              	.LVL1:
+  57 0014 FFF7FEFF 		bl	HAL_GPIO_WritePin
+  58              	.LVL1:
   48:SRV_MotorControl/SRC/SRV_MotorControl_main.c **** 
   49:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     return initSuccess;
-  60              		.loc 1 49 5 view .LVU12
+  59              		.loc 1 49 5 view .LVU12
   50:SRV_MotorControl/SRC/SRV_MotorControl_main.c **** }
-  61              		.loc 1 50 1 is_stmt 0 view .LVU13
-  62 001a 2046     		mov	r0, r4
-  63 001c 10BD     		pop	{r4, pc}
-  64              	.L4:
-  65 001e 00BF     		.align	2
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s 			page 3
+  60              		.loc 1 50 1 is_stmt 0 view .LVU13
+  61 0018 0020     		movs	r0, #0
+  62 001a 08BD     		pop	{r3, pc}
+  63              	.L4:
+  64              		.align	2
+  65              	.L3:
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s 			page 3
 
 
-  66              	.L3:
-  67 0020 00000000 		.word	.LANCHOR0
-  68 0024 00080140 		.word	1073809408
-  69              		.cfi_endproc
-  70              	.LFE68:
-  72              		.section	.text.motorControl_main,"ax",%progbits
-  73              		.align	1
-  74              		.global	motorControl_main
-  75              		.syntax unified
-  76              		.thumb
-  77              		.thumb_func
-  79              	motorControl_main:
-  80              	.LFB69:
+  66 001c 00000000 		.word	.LANCHOR0
+  67 0020 00080140 		.word	1073809408
+  68              		.cfi_endproc
+  69              	.LFE68:
+  71              		.section	.text.motorControl_main,"ax",%progbits
+  72              		.align	1
+  73              		.global	motorControl_main
+  74              		.syntax unified
+  75              		.thumb
+  76              		.thumb_func
+  78              	motorControl_main:
+  79              	.LFB69:
   51:SRV_MotorControl/SRC/SRV_MotorControl_main.c **** 
   52:SRV_MotorControl/SRC/SRV_MotorControl_main.c **** /**
   53:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****  * @brief Main function for motor controll
   54:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****  * 
   55:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****  */
   56:SRV_MotorControl/SRC/SRV_MotorControl_main.c **** void motorControl_main(){
-  81              		.loc 1 56 25 is_stmt 1 view -0
-  82              		.cfi_startproc
-  83              		@ args = 0, pretend = 0, frame = 0
-  84              		@ frame_needed = 0, uses_anonymous_args = 0
-  85 0000 10B5     		push	{r4, lr}
-  86              	.LCFI1:
-  87              		.cfi_def_cfa_offset 8
-  88              		.cfi_offset 4, -8
-  89              		.cfi_offset 14, -4
-  57:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     HAL_GPIO_WritePin(GPIOA,GPIO_PIN_4,GPIO_PIN_SET);
-  90              		.loc 1 57 5 view .LVU15
-  91 0002 074C     		ldr	r4, .L7
-  92 0004 0122     		movs	r2, #1
-  93 0006 1021     		movs	r1, #16
-  94 0008 2046     		mov	r0, r4
-  95 000a FFF7FEFF 		bl	HAL_GPIO_WritePin
-  96              	.LVL2:
+  80              		.loc 1 56 25 is_stmt 1 view -0
+  81              		.cfi_startproc
+  82              		@ args = 0, pretend = 0, frame = 0
+  83              		@ frame_needed = 0, uses_anonymous_args = 0
+  84 0000 10B5     		push	{r4, lr}
+  85              	.LCFI1:
+  86              		.cfi_def_cfa_offset 8
+  87              		.cfi_offset 4, -8
+  88              		.cfi_offset 14, -4
+  57:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     HAL_GPIO_WritePin(connectedMotors[0].motor_stepPort,connectedMotors[0].motor_stepPin,GPIO_PIN_S
+  89              		.loc 1 57 5 view .LVU15
+  90 0002 074C     		ldr	r4, .L7
+  91 0004 0122     		movs	r2, #1
+  92 0006 2189     		ldrh	r1, [r4, #8]
+  93 0008 E068     		ldr	r0, [r4, #12]
+  94 000a FFF7FEFF 		bl	HAL_GPIO_WritePin
+  95              	.LVL2:
   58:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     HAL_Delay(10);
-  97              		.loc 1 58 5 view .LVU16
-  98 000e 0A20     		movs	r0, #10
-  99 0010 FFF7FEFF 		bl	HAL_Delay
- 100              	.LVL3:
-  59:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     HAL_GPIO_WritePin(GPIOA,GPIO_PIN_4,GPIO_PIN_RESET);
- 101              		.loc 1 59 5 view .LVU17
- 102 0014 0022     		movs	r2, #0
- 103 0016 1021     		movs	r1, #16
- 104 0018 2046     		mov	r0, r4
- 105 001a FFF7FEFF 		bl	HAL_GPIO_WritePin
- 106              	.LVL4:
+  96              		.loc 1 58 5 view .LVU16
+  97 000e 0A20     		movs	r0, #10
+  98 0010 FFF7FEFF 		bl	HAL_Delay
+  99              	.LVL3:
+  59:SRV_MotorControl/SRC/SRV_MotorControl_main.c ****     HAL_GPIO_WritePin(connectedMotors[0].motor_stepPort,connectedMotors[0].motor_stepPin,GPIO_PIN_R
+ 100              		.loc 1 59 5 view .LVU17
+ 101 0014 0022     		movs	r2, #0
+ 102 0016 2189     		ldrh	r1, [r4, #8]
+ 103 0018 E068     		ldr	r0, [r4, #12]
+ 104 001a FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 105              	.LVL4:
   60:SRV_MotorControl/SRC/SRV_MotorControl_main.c **** }...
- 107              		.loc 1 60 1 is_stmt 0 view .LVU18
- 108 001e 10BD     		pop	{r4, pc}
- 109              	.L8:
- 110              		.align	2
- 111              	.L7:
- 112 0020 00080140 		.word	1073809408
- 113              		.cfi_endproc
- 114              	.LFE69:
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s 			page 4
+ 106              		.loc 1 60 1 is_stmt 0 view .LVU18
+ 107 001e 10BD     		pop	{r4, pc}
+ 108              	.L8:
+ 109              		.align	2
+ 110              	.L7:
+ 111 0020 00000000 		.word	.LANCHOR0
+ 112              		.cfi_endproc
+ 113              	.LFE69:
+ 115              		.global	connectedMotors
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s 			page 4
 
 
- 116              		.global	connectedMotors
- 117              		.section	.bss.connectedMotors,"aw",%nobits
- 118              		.align	2
- 119              		.set	.LANCHOR0,. + 0
- 122              	connectedMotors:
- 123 0000 00000000 		.space	20
- 123      00000000 
- 123      00000000 
- 123      00000000 
- 123      00000000 
- 124              		.text
- 125              	.Letext0:
- 126              		.file 2 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 127              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
- 128              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"
- 129              		.file 5 "SRV_MotorControl/API/SRV_MotorControl_def.h"
- 130              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h"
- 131              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s 			page 5
+ 116              		.section	.bss.connectedMotors,"aw",%nobits
+ 117              		.align	2
+ 118              		.set	.LANCHOR0,. + 0
+ 121              	connectedMotors:
+ 122 0000 00000000 		.space	40
+ 122      00000000 
+ 122      00000000 
+ 122      00000000 
+ 122      00000000 
+ 123              		.text
+ 124              	.Letext0:
+ 125              		.file 2 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
+ 126              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
+ 127              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"
+ 128              		.file 5 "SRV_MotorControl/API/SRV_MotorControl_def.h"
+ 129              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h"
+ 130              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 SRV_MotorControl_main.c
-C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s:18     .text.motorControl_init:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s:24     .text.motorControl_init:00000000 motorControl_init
-C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s:67     .text.motorControl_init:00000020 $d
-C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s:73     .text.motorControl_main:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s:79     .text.motorControl_main:00000000 motorControl_main
-C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s:112    .text.motorControl_main:00000020 $d
-C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s:122    .bss.connectedMotors:00000000 connectedMotors
-C:\Users\adivd\AppData\Local\Temp\ccYLNXaa.s:118    .bss.connectedMotors:00000000 $d
+C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s:18     .text.motorControl_init:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s:24     .text.motorControl_init:00000000 motorControl_init
+C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s:66     .text.motorControl_init:0000001c $d
+C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s:72     .text.motorControl_main:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s:78     .text.motorControl_main:00000000 motorControl_main
+C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s:111    .text.motorControl_main:00000020 $d
+C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s:121    .bss.connectedMotors:00000000 connectedMotors
+C:\Users\adivd\AppData\Local\Temp\cccWwzVz.s:117    .bss.connectedMotors:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_WritePin

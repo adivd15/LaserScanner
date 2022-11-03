@@ -44,7 +44,7 @@ SRV_MotorControl_def_motor connectedMotors[2];
     connectedMotors[0].motor_stepPin = Motor1_stepPin;
     connectedMotors[0].motor_stepPort = Motor1_stepPort;
 
-    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_3,GPIO_PIN_SET);
+    HAL_GPIO_WritePin(connectedMotors[0].motor_dirPort,connectedMotors[0].motor_dirPin,GPIO_PIN_SET);
 
     return initSuccess;
 }
@@ -54,7 +54,7 @@ SRV_MotorControl_def_motor connectedMotors[2];
  * 
  */
 void motorControl_main(){
-    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_4,GPIO_PIN_SET);
+    HAL_GPIO_WritePin(connectedMotors[0].motor_stepPort,connectedMotors[0].motor_stepPin,GPIO_PIN_SET);
     HAL_Delay(10);
-    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_4,GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(connectedMotors[0].motor_stepPort,connectedMotors[0].motor_stepPin,GPIO_PIN_RESET);
 }

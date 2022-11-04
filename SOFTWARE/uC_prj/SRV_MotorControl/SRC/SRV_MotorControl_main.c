@@ -34,19 +34,26 @@ SRV_MotorControl_def_motor connectedMotors[2];
  * @return 0 if initialization not succesfull
  */
  uint8_t motorControl_init(){
-    uint8_t initSuccess;
-    initSuccess = 0;
 
-    //initialize all connected motors
-    connectedMotors[0].motor_dirPin = Motor1_dirPin;
-    connectedMotors[0].motor_dirPort = Motor1_dirPort;
+    if(connectedMotors != NULL){
+        //initialize all connected motors
+        connectedMotors[0].motor_dirPin = Motor1_dirPin;
+        connectedMotors[0].motor_dirPort = Motor1_dirPort;
 
-    connectedMotors[0].motor_stepPin = Motor1_stepPin;
-    connectedMotors[0].motor_stepPort = Motor1_stepPort;
+        connectedMotors[0].motor_stepPin = Motor1_stepPin;
+        connectedMotors[0].motor_stepPort = Motor1_stepPort;
 
-    HAL_GPIO_WritePin(connectedMotors[0].motor_dirPort,connectedMotors[0].motor_dirPin,GPIO_PIN_SET);
+        connectedMotors[1].motor_dirPin = Motor2_dirPin;
+        connectedMotors[1].motor_dirPort = Motor2_dirPort;
 
-    return initSuccess;
+        connectedMotors[1].motor_stepPin = Motor2_stepPin;
+        connectedMotors[1].motor_stepPort = Motor2_stepPort;
+
+        //return init successfull
+        return 1;
+    }
+
+    return 0;
 }
 
 /**

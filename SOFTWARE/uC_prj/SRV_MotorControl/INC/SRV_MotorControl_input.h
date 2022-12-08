@@ -1,0 +1,4 @@
+#ifndef SRV_MOTORCONTROL_INPUT_H_
+#define SRV_MOTORCONTROL_INPUT_H_
+
+#endif

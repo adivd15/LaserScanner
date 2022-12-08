@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "srv_motorcontrol_main.h": "c",
+        "srv_motorcontrol_swcpma.h": "c",
+        "cstdint": "c",
+        "srv_motorcontrol_def.h": "c",
+        "stm32f1xx_hal.h": "c"
+    }
+}

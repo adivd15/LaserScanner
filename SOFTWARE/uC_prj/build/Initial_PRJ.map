@@ -677,6 +677,34 @@ Discarded input sections
  .bss           0x00000000        0x0 build/usbd_ioreq.o
  .text.USBD_GetRxCount
                 0x00000000        0x8 build/usbd_ioreq.o
+ .text          0x00000000        0x0 build/srv_sens_input.o
+ .data          0x00000000        0x0 build/srv_sens_input.o
+ .bss           0x00000000        0x0 build/srv_sens_input.o
+ .debug_line    0x00000000        0x0 build/srv_sens_input.o
+ .debug_str     0x00000000       0xde build/srv_sens_input.o
+ .comment       0x00000000       0x4a build/srv_sens_input.o
+ .ARM.attributes
+                0x00000000       0x2d build/srv_sens_input.o
+ .text          0x00000000        0x0 build/srv_sens_output.o
+ .data          0x00000000        0x0 build/srv_sens_output.o
+ .bss           0x00000000        0x0 build/srv_sens_output.o
+ .debug_line    0x00000000        0x0 build/srv_sens_output.o
+ .debug_str     0x00000000       0xdf build/srv_sens_output.o
+ .comment       0x00000000       0x4a build/srv_sens_output.o
+ .ARM.attributes
+                0x00000000       0x2d build/srv_sens_output.o
+ .text          0x00000000        0x0 build/srv_sens_main.o
+ .data          0x00000000        0x0 build/srv_sens_main.o
+ .bss           0x00000000        0x0 build/srv_sens_main.o
+ .debug_info    0x00000000       0x72 build/srv_sens_main.o
+ .debug_abbrev  0x00000000       0x26 build/srv_sens_main.o
+ .debug_aranges
+                0x00000000       0x18 build/srv_sens_main.o
+ .debug_line    0x00000000       0x1d build/srv_sens_main.o
+ .debug_str     0x00000000      0x172 build/srv_sens_main.o
+ .comment       0x00000000       0x4a build/srv_sens_main.o
+ .ARM.attributes
+                0x00000000       0x2d build/srv_sens_main.o
  .text          0x00000000        0x0 build/usbd_cdc.o
  .data          0x00000000        0x0 build/usbd_cdc.o
  .bss           0x00000000        0x0 build/usbd_cdc.o
@@ -865,6 +893,9 @@ LOAD build/stm32f1xx_hal_adc_ex.o
 LOAD build/usbd_core.o
 LOAD build/usbd_ctlreq.o
 LOAD build/usbd_ioreq.o
+LOAD build/srv_sens_input.o
+LOAD build/srv_sens_output.o
+LOAD build/srv_sens_main.o
 LOAD build/usbd_cdc.o
 LOAD build/startup_stm32f103xb.o
 LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a

@@ -65,6 +65,9 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c \
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c \
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c \
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c \
+SRV_SENS/SRC/srv_sens_input.c	\
+SRV_SENS/SRC/srv_sens_output.c	\
+SRV_SENS/SRC/srv_sens_main.c	\
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
 
 # ASM sources
@@ -130,6 +133,8 @@ C_INCLUDES =  \
 -IUSB_DEVICE/App \
 -IUSB_DEVICE/Target \
 -IMiddlewares/ST/STM32_USB_Device_Library/Core/Inc \
+-ISRV_SENS/API	\
+-ISRV_SENS/INC	\
 -IMiddlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
 
 

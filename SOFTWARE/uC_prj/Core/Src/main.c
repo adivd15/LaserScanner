@@ -22,8 +22,7 @@
 #include "string.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <stdio.h>
-#include <string.h>
+#include "srv_sens_swcpma.h"
 
 /* USER CODE END Includes */
 
@@ -93,7 +92,7 @@ int main(void)
   MX_ADC1_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-
+  srv_sens_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,16 +100,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    HAL_ADC_Start(&hadc1);
-    HAL_ADC_PollForConversion(&hadc1,300);
-    sensor_reading = HAL_ADC_GetValue(&hadc1);
-    float vin_sensor = (float)sensor_reading*(3.3/4096);
-    float distance = (float)27/vin_sensor;
-    int whole = distance;
-    int remainder = (distance - whole) * 1000;
-    sprintf(msg,"Tensiune: %d.%d\r\n",whole,remainder);
-    CDC_Transmit_FS((uint8_t*)msg, strlen(msg));
-    HAL_Delay(500);
+    srv_sens_main();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

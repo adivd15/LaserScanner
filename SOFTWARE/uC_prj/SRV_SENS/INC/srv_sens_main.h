@@ -20,6 +20,12 @@
 #include <stm32f1xx.h>
 #include <stm32f1xx_hal_gpio.h>
 
+#include <srv_sens_def.h>
+#include <srv_sens_api.h>
+#include <srv_sens_swcpma.h>
+#include <srv_sens_input.h>
+#include <srv_sens_output.h>
+
 /*
     DEFINES
 */
@@ -27,5 +33,19 @@
 /*
     FUNCTIONS
 */
-
+/**
+ * @brief set adc handle
+ *
+ * @param hadc1
+*/
+void set_adc(ADC_HandleTypeDef *hadc1);
+/**
+ * @brief init function for srv_sens
+*/
+void srv_sens_init(void);
+/**
+ * @brief main function for srv_sens
+ *
+*/
+void srv_sens_main(void);
 #endif

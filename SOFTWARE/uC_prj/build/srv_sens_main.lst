@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccxGTxgg.s 			page 1
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -17,11 +17,419 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccxGTxgg.s 			page 1
   14              		.text
   15              	.Ltext0:
   16              		.cfi_sections	.debug_frame
-  17              	.Letext0:
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccxGTxgg.s 			page 2
+  17              		.section	.text.set_adc,"ax",%progbits
+  18              		.align	1
+  19              		.global	set_adc
+  20              		.syntax unified
+  21              		.thumb
+  22              		.thumb_func
+  24              	set_adc:
+  25              	.LVL0:
+  26              	.LFB68:
+  27              		.file 1 "SRV_SENS/SRC/srv_sens_main.c"
+   1:SRV_SENS/SRC/srv_sens_main.c **** /**
+   2:SRV_SENS/SRC/srv_sens_main.c ****  * @file srv_sens_main.c
+   3:SRV_SENS/SRC/srv_sens_main.c ****  * @author Costea Adrian
+   4:SRV_SENS/SRC/srv_sens_main.c ****  * @brief main file for motor control
+   5:SRV_SENS/SRC/srv_sens_main.c ****  * @version 0.1
+   6:SRV_SENS/SRC/srv_sens_main.c ****  * @date 2022-11-03
+   7:SRV_SENS/SRC/srv_sens_main.c ****  *
+   8:SRV_SENS/SRC/srv_sens_main.c ****  * @copyright Copyright (c) 2022
+   9:SRV_SENS/SRC/srv_sens_main.c ****  *
+  10:SRV_SENS/SRC/srv_sens_main.c ****  */
+  11:SRV_SENS/SRC/srv_sens_main.c **** 
+  12:SRV_SENS/SRC/srv_sens_main.c **** /*
+  13:SRV_SENS/SRC/srv_sens_main.c ****     GLOBAL INCLUDE FILES
+  14:SRV_SENS/SRC/srv_sens_main.c **** */
+  15:SRV_SENS/SRC/srv_sens_main.c **** 
+  16:SRV_SENS/SRC/srv_sens_main.c **** #include <srv_sens_main.h>
+  17:SRV_SENS/SRC/srv_sens_main.c **** 
+  18:SRV_SENS/SRC/srv_sens_main.c **** /*
+  19:SRV_SENS/SRC/srv_sens_main.c ****     DEFINES
+  20:SRV_SENS/SRC/srv_sens_main.c **** */
+  21:SRV_SENS/SRC/srv_sens_main.c **** 
+  22:SRV_SENS/SRC/srv_sens_main.c **** /*
+  23:SRV_SENS/SRC/srv_sens_main.c ****     VARIABLES
+  24:SRV_SENS/SRC/srv_sens_main.c **** */
+  25:SRV_SENS/SRC/srv_sens_main.c **** ADC_HandleTypeDef hadc;
+  26:SRV_SENS/SRC/srv_sens_main.c **** sensor_data_t sensor_readings[20];
+  27:SRV_SENS/SRC/srv_sens_main.c **** sensor_data_t data_meadian;
+  28:SRV_SENS/SRC/srv_sens_main.c **** /*
+  29:SRV_SENS/SRC/srv_sens_main.c ****     FUNCTIONS
+  30:SRV_SENS/SRC/srv_sens_main.c **** */
+  31:SRV_SENS/SRC/srv_sens_main.c **** /**
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s 			page 2
+
+
+  32:SRV_SENS/SRC/srv_sens_main.c ****  * @brief set adc handle
+  33:SRV_SENS/SRC/srv_sens_main.c ****  *
+  34:SRV_SENS/SRC/srv_sens_main.c ****  * @param hadc1
+  35:SRV_SENS/SRC/srv_sens_main.c **** */
+  36:SRV_SENS/SRC/srv_sens_main.c **** void set_adc(ADC_HandleTypeDef *hadc1)
+  37:SRV_SENS/SRC/srv_sens_main.c **** {
+  28              		.loc 1 37 1 view -0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              		@ link register save eliminated.
+  33              		.loc 1 37 1 is_stmt 0 view .LVU1
+  34 0000 10B4     		push	{r4}
+  35              	.LCFI0:
+  36              		.cfi_def_cfa_offset 4
+  37              		.cfi_offset 4, -4
+  38:SRV_SENS/SRC/srv_sens_main.c ****     hadc = *hadc1;
+  38              		.loc 1 38 5 is_stmt 1 view .LVU2
+  39              		.loc 1 38 10 is_stmt 0 view .LVU3
+  40 0002 074C     		ldr	r4, .L3
+  41 0004 8446     		mov	ip, r0
+  42 0006 BCE80F00 		ldmia	ip!, {r0, r1, r2, r3}
+  43              	.LVL1:
+  44              		.loc 1 38 10 view .LVU4
+  45 000a 0FC4     		stmia	r4!, {r0, r1, r2, r3}
+  46 000c BCE80F00 		ldmia	ip!, {r0, r1, r2, r3}
+  47              	.LVL2:
+  48              		.loc 1 38 10 view .LVU5
+  49 0010 0FC4     		stmia	r4!, {r0, r1, r2, r3}
+  50 0012 9CE80F00 		ldm	ip, {r0, r1, r2, r3}
+  51 0016 84E80F00 		stm	r4, {r0, r1, r2, r3}
+  39:SRV_SENS/SRC/srv_sens_main.c **** }
+  52              		.loc 1 39 1 view .LVU6
+  53 001a 10BC     		pop	{r4}
+  54              	.LCFI1:
+  55              		.cfi_restore 4
+  56              		.cfi_def_cfa_offset 0
+  57 001c 7047     		bx	lr
+  58              	.L4:
+  59 001e 00BF     		.align	2
+  60              	.L3:
+  61 0020 00000000 		.word	.LANCHOR0
+  62              		.cfi_endproc
+  63              	.LFE68:
+  65              		.section	.text.srv_sens_init,"ax",%progbits
+  66              		.align	1
+  67              		.global	srv_sens_init
+  68              		.syntax unified
+  69              		.thumb
+  70              		.thumb_func
+  72              	srv_sens_init:
+  73              	.LFB69:
+  40:SRV_SENS/SRC/srv_sens_main.c **** /**
+  41:SRV_SENS/SRC/srv_sens_main.c ****  * @brief init function for srv_sens
+  42:SRV_SENS/SRC/srv_sens_main.c **** */
+  43:SRV_SENS/SRC/srv_sens_main.c **** void srv_sens_init(void)
+  44:SRV_SENS/SRC/srv_sens_main.c **** {
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s 			page 3
+
+
+  74              		.loc 1 44 1 is_stmt 1 view -0
+  75              		.cfi_startproc
+  76              		@ args = 0, pretend = 0, frame = 0
+  77              		@ frame_needed = 0, uses_anonymous_args = 0
+  78              		@ link register save eliminated.
+  45:SRV_SENS/SRC/srv_sens_main.c ****     //init sensor readings
+  46:SRV_SENS/SRC/srv_sens_main.c ****     for(int i=0;i<20;i++){
+  79              		.loc 1 46 5 view .LVU8
+  80              	.LBB2:
+  81              		.loc 1 46 9 view .LVU9
+  82              	.LVL3:
+  83              		.loc 1 46 13 is_stmt 0 view .LVU10
+  84 0000 0022     		movs	r2, #0
+  85              		.loc 1 46 5 view .LVU11
+  86 0002 0FE0     		b	.L6
+  87              	.LVL4:
+  88              	.L7:
+  47:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].sensor_id = 1;
+  89              		.loc 1 47 9 is_stmt 1 discriminator 3 view .LVU12
+  90              		.loc 1 47 38 is_stmt 0 discriminator 3 view .LVU13
+  91 0004 0948     		ldr	r0, .L8
+  92 0006 4FEA021C 		lsl	ip, r2, #4
+  93 000a 00EB0213 		add	r3, r0, r2, lsl #4
+  94 000e 0121     		movs	r1, #1
+  95 0010 00F80C10 		strb	r1, [r0, ip]
+  48:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].sensor_number = 1;
+  96              		.loc 1 48 9 is_stmt 1 discriminator 3 view .LVU14
+  97              		.loc 1 48 42 is_stmt 0 discriminator 3 view .LVU15
+  98 0014 5970     		strb	r1, [r3, #1]
+  49:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].raw_sensor_voltage = 0;
+  99              		.loc 1 49 9 is_stmt 1 discriminator 3 view .LVU16
+ 100              		.loc 1 49 47 is_stmt 0 discriminator 3 view .LVU17
+ 101 0016 0021     		movs	r1, #0
+ 102 0018 5960     		str	r1, [r3, #4]	@ float
+  50:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].sensor_decimal = 0;
+ 103              		.loc 1 50 9 is_stmt 1 discriminator 3 view .LVU18
+ 104              		.loc 1 50 43 is_stmt 0 discriminator 3 view .LVU19
+ 105 001a 0020     		movs	r0, #0
+ 106 001c 1872     		strb	r0, [r3, #8]
+  51:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].sensor_unit = 0;
+ 107              		.loc 1 51 9 is_stmt 1 discriminator 3 view .LVU20
+ 108              		.loc 1 51 40 is_stmt 0 discriminator 3 view .LVU21
+ 109 001e 5872     		strb	r0, [r3, #9]
+  52:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].sensor_data = 0;
+ 110              		.loc 1 52 9 is_stmt 1 discriminator 3 view .LVU22
+ 111              		.loc 1 52 40 is_stmt 0 discriminator 3 view .LVU23
+ 112 0020 D960     		str	r1, [r3, #12]	@ float
+  46:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].sensor_id = 1;
+ 113              		.loc 1 46 22 is_stmt 1 discriminator 3 view .LVU24
+  46:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].sensor_id = 1;
+ 114              		.loc 1 46 23 is_stmt 0 discriminator 3 view .LVU25
+ 115 0022 0132     		adds	r2, r2, #1
+ 116              	.LVL5:
+ 117              	.L6:
+  46:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].sensor_id = 1;
+ 118              		.loc 1 46 17 is_stmt 1 discriminator 1 view .LVU26
+  46:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[i].sensor_id = 1;
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s 			page 4
+
+
+ 119              		.loc 1 46 5 is_stmt 0 discriminator 1 view .LVU27
+ 120 0024 132A     		cmp	r2, #19
+ 121 0026 EDDD     		ble	.L7
+ 122              	.LBE2:
+  53:SRV_SENS/SRC/srv_sens_main.c ****     }
+  54:SRV_SENS/SRC/srv_sens_main.c **** 
+  55:SRV_SENS/SRC/srv_sens_main.c **** }
+ 123              		.loc 1 55 1 view .LVU28
+ 124 0028 7047     		bx	lr
+ 125              	.L9:
+ 126 002a 00BF     		.align	2
+ 127              	.L8:
+ 128 002c 00000000 		.word	.LANCHOR1
+ 129              		.cfi_endproc
+ 130              	.LFE69:
+ 132              		.global	__aeabi_ui2f
+ 133              		.global	__aeabi_f2d
+ 134              		.global	__aeabi_dmul
+ 135              		.global	__aeabi_d2f
+ 136              		.global	__aeabi_fadd
+ 137              		.global	__aeabi_fdiv
+ 138              		.section	.text.srv_sens_main,"ax",%progbits
+ 139              		.align	1
+ 140              		.global	srv_sens_main
+ 141              		.syntax unified
+ 142              		.thumb
+ 143              		.thumb_func
+ 145              	srv_sens_main:
+ 146              	.LFB70:
+  56:SRV_SENS/SRC/srv_sens_main.c **** /**
+  57:SRV_SENS/SRC/srv_sens_main.c ****  * @brief main function for srv_sens
+  58:SRV_SENS/SRC/srv_sens_main.c ****  *
+  59:SRV_SENS/SRC/srv_sens_main.c **** */
+  60:SRV_SENS/SRC/srv_sens_main.c **** void srv_sens_main(void)
+  61:SRV_SENS/SRC/srv_sens_main.c **** {
+ 147              		.loc 1 61 1 is_stmt 1 view -0
+ 148              		.cfi_startproc
+ 149              		@ args = 0, pretend = 0, frame = 0
+ 150              		@ frame_needed = 0, uses_anonymous_args = 0
+ 151 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+ 152              	.LCFI2:
+ 153              		.cfi_def_cfa_offset 24
+ 154              		.cfi_offset 3, -24
+ 155              		.cfi_offset 4, -20
+ 156              		.cfi_offset 5, -16
+ 157              		.cfi_offset 6, -12
+ 158              		.cfi_offset 7, -8
+ 159              		.cfi_offset 14, -4
+  62:SRV_SENS/SRC/srv_sens_main.c ****     float sensor_data_sum;
+ 160              		.loc 1 62 5 view .LVU30
+  63:SRV_SENS/SRC/srv_sens_main.c ****     for(int i = 0; i < 20; i++)
+ 161              		.loc 1 63 5 view .LVU31
+ 162              	.LBB3:
+ 163              		.loc 1 63 9 view .LVU32
+ 164              	.LVL6:
+ 165              		.loc 1 63 13 is_stmt 0 view .LVU33
+ 166 0002 0026     		movs	r6, #0
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s 			page 5
+
+
+ 167              		.loc 1 63 5 view .LVU34
+ 168 0004 27E0     		b	.L11
+ 169              	.LVL7:
+ 170              	.L12:
+  64:SRV_SENS/SRC/srv_sens_main.c ****     {
+  65:SRV_SENS/SRC/srv_sens_main.c ****         //read sensor data
+  66:SRV_SENS/SRC/srv_sens_main.c ****         HAL_ADC_Start(&hadc);
+ 171              		.loc 1 66 9 is_stmt 1 discriminator 3 view .LVU35
+ 172 0006 1A4D     		ldr	r5, .L14+8
+ 173 0008 2846     		mov	r0, r5
+ 174 000a FFF7FEFF 		bl	HAL_ADC_Start
+ 175              	.LVL8:
+  67:SRV_SENS/SRC/srv_sens_main.c ****         HAL_ADC_PollForConversion(&hadc, 100);
+ 176              		.loc 1 67 9 discriminator 3 view .LVU36
+ 177 000e 6421     		movs	r1, #100
+ 178 0010 2846     		mov	r0, r5
+ 179 0012 FFF7FEFF 		bl	HAL_ADC_PollForConversion
+ 180              	.LVL9:
+  68:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[0].raw_sensor_voltage = HAL_ADC_GetValue(&hadc);
+ 181              		.loc 1 68 9 discriminator 3 view .LVU37
+ 182              		.loc 1 68 49 is_stmt 0 discriminator 3 view .LVU38
+ 183 0016 2846     		mov	r0, r5
+ 184 0018 FFF7FEFF 		bl	HAL_ADC_GetValue
+ 185              	.LVL10:
+ 186              		.loc 1 68 47 discriminator 3 view .LVU39
+ 187 001c 154C     		ldr	r4, .L14+12
+ 188 001e FFF7FEFF 		bl	__aeabi_ui2f
+ 189              	.LVL11:
+ 190 0022 6060     		str	r0, [r4, #4]	@ float
+  69:SRV_SENS/SRC/srv_sens_main.c ****         HAL_ADC_Stop(&hadc);
+ 191              		.loc 1 69 9 is_stmt 1 discriminator 3 view .LVU40
+ 192 0024 2846     		mov	r0, r5
+ 193 0026 FFF7FEFF 		bl	HAL_ADC_Stop
+ 194              	.LVL12:
+  70:SRV_SENS/SRC/srv_sens_main.c ****         sensor_readings[0].raw_sensor_voltage = sensor_readings[0].raw_sensor_voltage*(3.3/4096);
+ 195              		.loc 1 70 9 discriminator 3 view .LVU41
+ 196              		.loc 1 70 67 is_stmt 0 discriminator 3 view .LVU42
+ 197 002a 6068     		ldr	r0, [r4, #4]	@ float
+ 198 002c FFF7FEFF 		bl	__aeabi_f2d
+ 199              	.LVL13:
+ 200              		.loc 1 70 86 discriminator 3 view .LVU43
+ 201 0030 0DA3     		adr	r3, .L14
+ 202 0032 D3E90023 		ldrd	r2, [r3]
+ 203 0036 FFF7FEFF 		bl	__aeabi_dmul
+ 204              	.LVL14:
+ 205 003a FFF7FEFF 		bl	__aeabi_d2f
+ 206              	.LVL15:
+ 207              		.loc 1 70 47 discriminator 3 view .LVU44
+ 208 003e 6060     		str	r0, [r4, #4]	@ float
+  71:SRV_SENS/SRC/srv_sens_main.c ****         //convert raw_sensor_voltage to sensor_data
+  72:SRV_SENS/SRC/srv_sens_main.c **** 
+  73:SRV_SENS/SRC/srv_sens_main.c ****         //get medium value from sensor_data
+  74:SRV_SENS/SRC/srv_sens_main.c ****         sensor_data_sum += sensor_readings[i].sensor_data;
+ 209              		.loc 1 74 9 is_stmt 1 discriminator 3 view .LVU45
+ 210              		.loc 1 74 46 is_stmt 0 discriminator 3 view .LVU46
+ 211 0040 04EB0614 		add	r4, r4, r6, lsl #4
+ 212              		.loc 1 74 25 discriminator 3 view .LVU47
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s 			page 6
+
+
+ 213 0044 E168     		ldr	r1, [r4, #12]	@ float
+ 214 0046 3846     		mov	r0, r7
+ 215 0048 FFF7FEFF 		bl	__aeabi_fadd
+ 216              	.LVL16:
+ 217 004c 0746     		mov	r7, r0
+ 218              	.LVL17:
+  75:SRV_SENS/SRC/srv_sens_main.c ****         //wait 5ms
+  76:SRV_SENS/SRC/srv_sens_main.c ****         HAL_Delay(5);
+ 219              		.loc 1 76 9 is_stmt 1 discriminator 3 view .LVU48
+ 220 004e 0520     		movs	r0, #5
+ 221              	.LVL18:
+ 222              		.loc 1 76 9 is_stmt 0 discriminator 3 view .LVU49
+ 223 0050 FFF7FEFF 		bl	HAL_Delay
+ 224              	.LVL19:
+  63:SRV_SENS/SRC/srv_sens_main.c ****     {
+ 225              		.loc 1 63 28 is_stmt 1 discriminator 3 view .LVU50
+  63:SRV_SENS/SRC/srv_sens_main.c ****     {
+ 226              		.loc 1 63 29 is_stmt 0 discriminator 3 view .LVU51
+ 227 0054 0136     		adds	r6, r6, #1
+ 228              	.LVL20:
+ 229              	.L11:
+  63:SRV_SENS/SRC/srv_sens_main.c ****     {
+ 230              		.loc 1 63 20 is_stmt 1 discriminator 1 view .LVU52
+  63:SRV_SENS/SRC/srv_sens_main.c ****     {
+ 231              		.loc 1 63 5 is_stmt 0 discriminator 1 view .LVU53
+ 232 0056 132E     		cmp	r6, #19
+ 233 0058 D5DD     		ble	.L12
+ 234              	.LBE3:
+  77:SRV_SENS/SRC/srv_sens_main.c ****     }
+  78:SRV_SENS/SRC/srv_sens_main.c ****     //calculate medium value
+  79:SRV_SENS/SRC/srv_sens_main.c ****     data_meadian.sensor_data = sensor_data_sum/20;
+ 235              		.loc 1 79 5 is_stmt 1 view .LVU54
+ 236              		.loc 1 79 47 is_stmt 0 view .LVU55
+ 237 005a 0749     		ldr	r1, .L14+16
+ 238 005c 3846     		mov	r0, r7
+ 239 005e FFF7FEFF 		bl	__aeabi_fdiv
+ 240              	.LVL21:
+ 241              		.loc 1 79 30 view .LVU56
+ 242 0062 064B     		ldr	r3, .L14+20
+ 243 0064 D860     		str	r0, [r3, #12]	@ float
+  80:SRV_SENS/SRC/srv_sens_main.c **** }
+ 244              		.loc 1 80 1 view .LVU57
+ 245 0066 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 246              	.LVL22:
+ 247              	.L15:
+ 248              		.loc 1 80 1 view .LVU58
+ 249              		.align	3
+ 250              	.L14:
+ 251 0068 66666666 		.word	1717986918
+ 252 006c 66664A3F 		.word	1061840486
+ 253 0070 00000000 		.word	.LANCHOR0
+ 254 0074 00000000 		.word	.LANCHOR1
+ 255 0078 0000A041 		.word	1101004800
+ 256 007c 00000000 		.word	.LANCHOR2
+ 257              		.cfi_endproc
+ 258              	.LFE70:
+ 260              		.global	data_meadian
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s 			page 7
+
+
+ 261              		.global	sensor_readings
+ 262              		.global	hadc
+ 263              		.section	.bss.data_meadian,"aw",%nobits
+ 264              		.align	2
+ 265              		.set	.LANCHOR2,. + 0
+ 268              	data_meadian:
+ 269 0000 00000000 		.space	16
+ 269      00000000 
+ 269      00000000 
+ 269      00000000 
+ 270              		.section	.bss.hadc,"aw",%nobits
+ 271              		.align	2
+ 272              		.set	.LANCHOR0,. + 0
+ 275              	hadc:
+ 276 0000 00000000 		.space	48
+ 276      00000000 
+ 276      00000000 
+ 276      00000000 
+ 276      00000000 
+ 277              		.section	.bss.sensor_readings,"aw",%nobits
+ 278              		.align	2
+ 279              		.set	.LANCHOR1,. + 0
+ 282              	sensor_readings:
+ 283 0000 00000000 		.space	320
+ 283      00000000 
+ 283      00000000 
+ 283      00000000 
+ 283      00000000 
+ 284              		.text
+ 285              	.Letext0:
+ 286              		.file 2 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
+ 287              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
+ 288              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"
+ 289              		.file 5 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h"
+ 290              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
+ 291              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
+ 292              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h"
+ 293              		.file 9 "SRV_SENS/API/srv_sens_def.h"
+ 294              		.file 10 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 srv_sens_main.c
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:18     .text.set_adc:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:24     .text.set_adc:00000000 set_adc
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:61     .text.set_adc:00000020 $d
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:66     .text.srv_sens_init:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:72     .text.srv_sens_init:00000000 srv_sens_init
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:128    .text.srv_sens_init:0000002c $d
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:139    .text.srv_sens_main:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:145    .text.srv_sens_main:00000000 srv_sens_main
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:251    .text.srv_sens_main:00000068 $d
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:268    .bss.data_meadian:00000000 data_meadian
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:282    .bss.sensor_readings:00000000 sensor_readings
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:275    .bss.hadc:00000000 hadc
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:264    .bss.data_meadian:00000000 $d
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:271    .bss.hadc:00000000 $d
+C:\Users\adivd\AppData\Local\Temp\ccJfIbp9.s:278    .bss.sensor_readings:00000000 $d
 
-NO UNDEFINED SYMBOLS
+UNDEFINED SYMBOLS
+__aeabi_ui2f
+__aeabi_f2d
+__aeabi_dmul
+__aeabi_d2f
+__aeabi_fadd
+__aeabi_fdiv
+HAL_ADC_Start
+HAL_ADC_PollForConversion
+HAL_ADC_GetValue
+HAL_ADC_Stop
+HAL_Delay

@@ -24,7 +24,10 @@ build/srv_sens_main.o: SRV_SENS/SRC/srv_sens_main.c \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h \
  Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
- Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+ Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
+ SRV_SENS/API/srv_sens_def.h SRV_SENS/API/srv_sens_api.h \
+ SRV_SENS/API/srv_sens_swcpma.h SRV_SENS/INC/srv_sens_input.h \
+ SRV_SENS/INC/srv_sens_output.h
 SRV_SENS/INC/srv_sens_main.h:
 Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
 Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h:
@@ -53,3 +56,8 @@ Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h:
 Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
+SRV_SENS/API/srv_sens_def.h:
+SRV_SENS/API/srv_sens_api.h:
+SRV_SENS/API/srv_sens_swcpma.h:
+SRV_SENS/INC/srv_sens_input.h:
+SRV_SENS/INC/srv_sens_output.h:

@@ -1,5 +1,10 @@
 {
     "files.associations": {
-        "string.h": "c"
+        "string.h": "c",
+        "srv_sens_main.h": "c",
+        "stm32f1xx_hal_gpio.h": "c",
+        "srv_sens_def.h": "c",
+        "srv_sens_swcpma.h": "c",
+        "stdint.h": "c"
     }
 }

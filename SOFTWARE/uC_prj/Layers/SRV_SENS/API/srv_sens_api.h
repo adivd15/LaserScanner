@@ -8,6 +8,8 @@
 
 #include <stm32f1xx.h>
 #include <stm32f1xx_hal_gpio.h>
+
+#include <srv_sens_def.h>
 /*
     DEFINES
 */

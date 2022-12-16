@@ -19,12 +19,13 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "usb_device.h"
-#include "string.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "srv_sens_swcpma.h"
-#include "srv_sens_def.h"
-#include "srv_sens_api.h"
+#include <srv_sens_api.h>
+#include <srv_sens_swcpma.h>
+#include <srv_sens_def.h>
+#include <srv_MotorControl_main.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -68,6 +69,7 @@ static void MX_ADC1_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+  uint8_t msg[50];
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -93,20 +95,20 @@ int main(void)
   /* USER CODE BEGIN 2 */
   srv_sens_init();
   set_adc(&hadc1);
-  sensor_data_t sensor_reding;
-  uint8_t msg[40];
+  motorControl_init();
+  sensor_data_t sens_readings;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    
     /* USER CODE END WHILE */
     srv_sens_main();
-    sensor_reding = get_sensor_data();
-    sprintf(msg, "Distance: %d.%d cm\r\n", sensor_reding.sensor_decimal, sensor_reding.sensor_unit);
-    CDC_Transmit_FS(msg, strlen(msg));
+    motorControl_main();
+    sens_readings = get_sensor_data();
+    sprintf(msg,"Distance: %d.%d cm\r\n",sens_readings.sensor_decimal,sens_readings.sensor_unit);
+    CDC_Transmit_FS(msg,strlen(msg));
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -213,10 +215,21 @@ static void MX_ADC1_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : PA3 PA4 PA5 PA6 */
+  GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
 }
 

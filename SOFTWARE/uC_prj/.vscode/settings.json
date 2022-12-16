@@ -1,20 +1,8 @@
 {
     "files.associations": {
-<<<<<<< HEAD
-        "string.h": "c",
-        "srv_sens_main.h": "c",
-        "stm32f1xx_hal_gpio.h": "c",
-        "srv_sens_def.h": "c",
         "srv_sens_swcpma.h": "c",
-        "stdint.h": "c",
-        "stm32f1xx.h": "c"
-=======
-        "stdio.h": "c",
-        "srv_motorcontrol_main.h": "c",
-        "srv_motorcontrol_swcpma.h": "c",
-        "cstdint": "c",
-        "srv_motorcontrol_def.h": "c",
-        "stm32f1xx_hal.h": "c"
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+        "srv_sens_def.h": "c",
+        "stm32f1xx.h": "c",
+        "srv_motorcontrol_main.h": "c"
     }
 }

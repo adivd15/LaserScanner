@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccMILKK.s 			page 1
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 1
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -62,11 +58,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 1
   30:Core/Src/stm32f1xx_it.c **** /* USER CODE END TD */
   31:Core/Src/stm32f1xx_it.c **** 
   32:Core/Src/stm32f1xx_it.c **** /* Private define ------------------------------------------------------------*/
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccMILKK.s 			page 2
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 2
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s 			page 2
 
 
   33:Core/Src/stm32f1xx_it.c **** /* USER CODE BEGIN PD */
@@ -126,11 +118,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 1
   75:Core/Src/stm32f1xx_it.c ****   {
   36              		.loc 1 75 9 discriminator 1 view .LVU3
   37 0000 FEE7     		b	.L2
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccMILKK.s 			page 3
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 3
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s 			page 3
 
 
   38              		.cfi_endproc
@@ -190,11 +178,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 1
  100:Core/Src/stm32f1xx_it.c **** {
   73              		.loc 1 100 1 view -0
   74              		.cfi_startproc
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccMILKK.s 			page 4
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 4
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s 			page 4
 
 
   75              		@ Volatile: function does not return.
@@ -254,11 +238,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 1
  106 0000 FEE7     		b	.L8
  107              		.cfi_endproc
  108              	.LFE68:
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccMILKK.s 			page 5
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 5
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s 			page 5
 
 
  110              		.section	.text.UsageFault_Handler,"ax",%progbits
@@ -318,11 +298,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 1
  144              		@ args = 0, pretend = 0, frame = 0
  145              		@ frame_needed = 0, uses_anonymous_args = 0
  146              		@ link register save eliminated.
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccMILKK.s 			page 6
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 6
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s 			page 6
 
 
  146:Core/Src/stm32f1xx_it.c ****   /* USER CODE BEGIN SVCall_IRQn 0 */
@@ -382,11 +358,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 1
  171:Core/Src/stm32f1xx_it.c **** {
  180              		.loc 1 171 1 view -0
  181              		.cfi_startproc
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccMILKK.s 			page 7
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 7
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s 			page 7
 
 
  182              		@ args = 0, pretend = 0, frame = 0
@@ -441,13 +413,12 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 1
  212 0006 08BD     		pop	{r3, pc}
  213              		.cfi_endproc
  214              	.LFE73:
-<<<<<<< HEAD
  216              		.section	.text.USB_LP_CAN1_RX0_IRQHandler,"ax",%progbits
  217              		.align	1
  218              		.global	USB_LP_CAN1_RX0_IRQHandler
  219              		.syntax unified
  220              		.thumb
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccMILKK.s 			page 8
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s 			page 8
 
 
  221              		.thumb_func
@@ -504,59 +475,32 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 1
  253              		.file 6 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h"
  254              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h"
  255              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\cccMILKK.s 			page 9
-=======
- 216              		.text
- 217              	.Letext0:
- 218              		.file 2 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s 			page 8
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f1xx_it.c
-<<<<<<< HEAD
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:18     .text.NMI_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:24     .text.NMI_Handler:00000000 NMI_Handler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:42     .text.HardFault_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:48     .text.HardFault_Handler:00000000 HardFault_Handler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:65     .text.MemManage_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:71     .text.MemManage_Handler:00000000 MemManage_Handler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:88     .text.BusFault_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:94     .text.BusFault_Handler:00000000 BusFault_Handler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:111    .text.UsageFault_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:117    .text.UsageFault_Handler:00000000 UsageFault_Handler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:134    .text.SVC_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:140    .text.SVC_Handler:00000000 SVC_Handler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:153    .text.DebugMon_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:159    .text.DebugMon_Handler:00000000 DebugMon_Handler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:172    .text.PendSV_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:178    .text.PendSV_Handler:00000000 PendSV_Handler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:191    .text.SysTick_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:197    .text.SysTick_Handler:00000000 SysTick_Handler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:217    .text.USB_LP_CAN1_RX0_IRQHandler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:223    .text.USB_LP_CAN1_RX0_IRQHandler:00000000 USB_LP_CAN1_RX0_IRQHandler
-C:\Users\adivd\AppData\Local\Temp\cccMILKK.s:243    .text.USB_LP_CAN1_RX0_IRQHandler:0000000c $d
-=======
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:18     .text.NMI_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:24     .text.NMI_Handler:00000000 NMI_Handler
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:42     .text.HardFault_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:48     .text.HardFault_Handler:00000000 HardFault_Handler
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:65     .text.MemManage_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:71     .text.MemManage_Handler:00000000 MemManage_Handler
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:88     .text.BusFault_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:94     .text.BusFault_Handler:00000000 BusFault_Handler
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:111    .text.UsageFault_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:117    .text.UsageFault_Handler:00000000 UsageFault_Handler
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:134    .text.SVC_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:140    .text.SVC_Handler:00000000 SVC_Handler
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:153    .text.DebugMon_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:159    .text.DebugMon_Handler:00000000 DebugMon_Handler
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:172    .text.PendSV_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:178    .text.PendSV_Handler:00000000 PendSV_Handler
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:191    .text.SysTick_Handler:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccOITNHk.s:197    .text.SysTick_Handler:00000000 SysTick_Handler
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:18     .text.NMI_Handler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:24     .text.NMI_Handler:00000000 NMI_Handler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:42     .text.HardFault_Handler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:48     .text.HardFault_Handler:00000000 HardFault_Handler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:65     .text.MemManage_Handler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:71     .text.MemManage_Handler:00000000 MemManage_Handler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:88     .text.BusFault_Handler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:94     .text.BusFault_Handler:00000000 BusFault_Handler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:111    .text.UsageFault_Handler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:117    .text.UsageFault_Handler:00000000 UsageFault_Handler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:134    .text.SVC_Handler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:140    .text.SVC_Handler:00000000 SVC_Handler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:153    .text.DebugMon_Handler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:159    .text.DebugMon_Handler:00000000 DebugMon_Handler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:172    .text.PendSV_Handler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:178    .text.PendSV_Handler:00000000 PendSV_Handler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:191    .text.SysTick_Handler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:197    .text.SysTick_Handler:00000000 SysTick_Handler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:217    .text.USB_LP_CAN1_RX0_IRQHandler:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:223    .text.USB_LP_CAN1_RX0_IRQHandler:00000000 USB_LP_CAN1_RX0_IRQHandler
+C:\Users\adivd\AppData\Local\Temp\ccdVWgHw.s:243    .text.USB_LP_CAN1_RX0_IRQHandler:0000000c $d
 
 UNDEFINED SYMBOLS
 HAL_IncTick

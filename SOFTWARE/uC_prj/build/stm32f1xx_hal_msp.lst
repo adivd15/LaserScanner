@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s 			page 1
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -62,11 +58,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
   30:Core/Src/stm32f1xx_hal_msp.c **** /* USER CODE END TD */
   31:Core/Src/stm32f1xx_hal_msp.c **** 
   32:Core/Src/stm32f1xx_hal_msp.c **** /* Private define ------------------------------------------------------------*/
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s 			page 2
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 2
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s 			page 2
 
 
   33:Core/Src/stm32f1xx_hal_msp.c **** /* USER CODE BEGIN Define */
@@ -126,11 +118,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
   44 000c 9A69     		ldr	r2, [r3, #24]
   45 000e 02F00102 		and	r2, r2, #1
   46 0012 0092     		str	r2, [sp]
-<<<<<<< HEAD
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s 			page 3
-=======
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 3
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s 			page 3
 
 
   47              		.loc 1 69 3 view .LVU5
@@ -156,7 +144,6 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
   71:Core/Src/stm32f1xx_hal_msp.c **** 
   72:Core/Src/stm32f1xx_hal_msp.c ****   /* System interrupt init*/
   73:Core/Src/stm32f1xx_hal_msp.c **** 
-<<<<<<< HEAD
   74:Core/Src/stm32f1xx_hal_msp.c ****   /** NOJTAG: JTAG-DP Disabled and SW-DP Enabled
   75:Core/Src/stm32f1xx_hal_msp.c ****   */
   76:Core/Src/stm32f1xx_hal_msp.c ****   __HAL_AFIO_REMAP_SWJ_NOJTAG();
@@ -191,7 +178,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
   89 003a 00BF     		.align	2
   90              	.L3:
   91 003c 00100240 		.word	1073876992
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s 			page 4
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s 			page 4
 
 
   92 0040 00000140 		.word	1073807360
@@ -251,7 +238,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
   96:Core/Src/stm32f1xx_hal_msp.c ****   /* USER CODE END ADC1_MspInit 0 */
   97:Core/Src/stm32f1xx_hal_msp.c ****     /* Peripheral clock enable */
   98:Core/Src/stm32f1xx_hal_msp.c ****     __HAL_RCC_ADC1_CLK_ENABLE();
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s 			page 5
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s 			page 5
 
 
   99:Core/Src/stm32f1xx_hal_msp.c **** 
@@ -311,7 +298,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
  164              		.loc 1 100 5 view .LVU36
  165 0032 9A69     		ldr	r2, [r3, #24]
  166 0034 42F00402 		orr	r2, r2, #4
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s 			page 6
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s 			page 6
 
 
  167 0038 9A61     		str	r2, [r3, #24]
@@ -371,7 +358,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
  117:Core/Src/stm32f1xx_hal_msp.c **** * This function freeze the hardware resources used in this example
  118:Core/Src/stm32f1xx_hal_msp.c **** * @param hadc: ADC handle pointer
  119:Core/Src/stm32f1xx_hal_msp.c **** * @retval None
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s 			page 7
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s 			page 7
 
 
  120:Core/Src/stm32f1xx_hal_msp.c **** */
@@ -431,7 +418,7 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
  241 0018 0348     		ldr	r0, .L15+8
  242              	.LVL11:
  134:Core/Src/stm32f1xx_hal_msp.c **** 
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s 			page 8
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s 			page 8
 
 
  243              		.loc 1 134 5 is_stmt 0 view .LVU55
@@ -457,50 +444,20 @@ ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 1
  264              		.file 7 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h"
  265              		.file 8 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
  266              		.file 9 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h"
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s 			page 9
-=======
-  74:Core/Src/stm32f1xx_hal_msp.c ****   /* USER CODE BEGIN MspInit 1 */
-  75:Core/Src/stm32f1xx_hal_msp.c **** 
-  76:Core/Src/stm32f1xx_hal_msp.c ****   /* USER CODE END MspInit 1 */
-  77:Core/Src/stm32f1xx_hal_msp.c **** }
-  66              		.loc 1 77 1 is_stmt 0 view .LVU13
-  67 0028 02B0     		add	sp, sp, #8
-  68              	.LCFI1:
-  69              		.cfi_def_cfa_offset 0
-  70              		@ sp needed
-  71 002a 7047     		bx	lr
-  72              	.L4:
-  73              		.align	2
-  74              	.L3:
-  75 002c 00100240 		.word	1073876992
-  76              		.cfi_endproc
-  77              	.LFE65:
-  79              		.text
-  80              	.Letext0:
-  81              		.file 2 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
-  82              		.file 3 "c:\\program files (x86)\\gnu arm embedded toolchain\\10 2021.10\\arm-none-eabi\\include\\
-  83              		.file 4 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"
-ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s 			page 4
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+ARM GAS  C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f1xx_hal_msp.c
-<<<<<<< HEAD
-C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s:18     .text.HAL_MspInit:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s:24     .text.HAL_MspInit:00000000 HAL_MspInit
-C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s:91     .text.HAL_MspInit:0000003c $d
-C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s:97     .text.HAL_ADC_MspInit:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s:103    .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
-C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s:196    .text.HAL_ADC_MspInit:00000058 $d
-C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s:202    .text.HAL_ADC_MspDeInit:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s:208    .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
-C:\Users\adivd\AppData\Local\Temp\ccsqwylW.s:251    .text.HAL_ADC_MspDeInit:00000020 $d
-=======
-C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s:18     .text.HAL_MspInit:00000000 $t
-C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s:24     .text.HAL_MspInit:00000000 HAL_MspInit
-C:\Users\adivd\AppData\Local\Temp\ccgZelSw.s:75     .text.HAL_MspInit:0000002c $d
->>>>>>> 7c649a60a952ad6a50ba101ba65501f4c197e2db
+C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s:18     .text.HAL_MspInit:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s:24     .text.HAL_MspInit:00000000 HAL_MspInit
+C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s:91     .text.HAL_MspInit:0000003c $d
+C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s:97     .text.HAL_ADC_MspInit:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s:103    .text.HAL_ADC_MspInit:00000000 HAL_ADC_MspInit
+C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s:196    .text.HAL_ADC_MspInit:00000058 $d
+C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s:202    .text.HAL_ADC_MspDeInit:00000000 $t
+C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s:208    .text.HAL_ADC_MspDeInit:00000000 HAL_ADC_MspDeInit
+C:\Users\adivd\AppData\Local\Temp\ccf8gxWR.s:251    .text.HAL_ADC_MspDeInit:00000020 $d
 
 UNDEFINED SYMBOLS
 HAL_GPIO_Init

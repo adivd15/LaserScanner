@@ -101,6 +101,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    
     /* USER CODE END WHILE */
     srv_sens_main();
     sensor_reding = get_sensor_data();

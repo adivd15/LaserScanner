@@ -8,18 +8,56 @@ c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-
                               c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (__libc_init_array)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
                               c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o (memset)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+                              build/main.o (sprintf)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-strlen.o)
+                              build/main.o (strlen)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o) (_svfprintf_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o) (_printf_i)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o) (memchr)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o) (memcpy)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o) (memmove)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o) (_free_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o) (_malloc_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o) (errno)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o) (__retarget_lock_acquire_recursive)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o) (_sbrk)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
                               c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o) (_exit)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
                               build/srv_sens_main.o (__aeabi_dmul)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+                              build/srv_sens_main.o (__aeabi_fmul)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
-                              build/srv_sens_main.o (__aeabi_f2d)
+                              build/srv_sens_main.o (__aeabi_dsub)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                              build/srv_sens_main.o (__aeabi_ddiv)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
                               build/srv_sens_main.o (__aeabi_d2f)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
-                              build/srv_sens_main.o (__aeabi_fadd)
+                              build/srv_sens_main.o (__aeabi_fsub)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
                               build/srv_sens_main.o (__aeabi_fdiv)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                              build/srv_sens_main.o (__aeabi_f2iz)
 
 Discarded input sections
 
@@ -432,8 +470,6 @@ Discarded input sections
  .text          0x00000000        0x0 build/usbd_cdc_if.o
  .data          0x00000000        0x0 build/usbd_cdc_if.o
  .bss           0x00000000        0x0 build/usbd_cdc_if.o
- .text.CDC_Transmit_FS
-                0x00000000       0x2c build/usbd_cdc_if.o
  .text          0x00000000        0x0 build/usbd_conf.o
  .data          0x00000000        0x0 build/usbd_conf.o
  .bss           0x00000000        0x0 build/usbd_conf.o
@@ -660,12 +696,9 @@ Discarded input sections
  .text          0x00000000        0x0 build/srv_sens_main.o
  .data          0x00000000        0x0 build/srv_sens_main.o
  .bss           0x00000000        0x0 build/srv_sens_main.o
- .text.set_adc  0x00000000       0x24 build/srv_sens_main.o
  .text          0x00000000        0x0 build/usbd_cdc.o
  .data          0x00000000        0x0 build/usbd_cdc.o
  .bss           0x00000000        0x0 build/usbd_cdc.o
- .text.USBD_CDC_TransmitPacket
-                0x00000000       0x34 build/usbd_cdc.o
  .text          0x00000000       0x14 build/startup_stm32f103xb.o
  .data          0x00000000        0x0 build/startup_stm32f103xb.o
  .bss           0x00000000        0x0 build/startup_stm32f103xb.o
@@ -679,20 +712,101 @@ Discarded input sections
  .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
- .data._impure_ptr
-                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
- .data.impure_data
-                0x00000000       0x60 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
  .rodata._global_impure_ptr
                 0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
- .ARM.attributes
-                0x00000000       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
  .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
  .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x00000000       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+ .text.__ssprint_r
+                0x00000000       0xf6 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xb8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___sinit_recursive_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
  .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
@@ -700,16 +814,30 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
  .ARM.attributes
                 0x00000000       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
+ .text          0x00000000      0x254 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x00000000       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+ .text          0x00000000      0x168 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x00000000       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
  .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
@@ -791,654 +919,732 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
                 0x08000000                g_pfnVectors
                 0x0800010c                . = ALIGN (0x4)
 
-.text           0x08000110     0x509c
+.text           0x08000110     0x5cfc
                 0x08000110                . = ALIGN (0x4)
  *(.text)
  .text          0x08000110       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
- .text          0x08000150      0x254 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
-                0x08000150                __muldf3
-                0x08000150                __aeabi_dmul
- .text          0x080003a4      0x378 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
-                0x080003a4                __aeabi_drsub
-                0x080003ac                __aeabi_dsub
-                0x080003ac                __subdf3
-                0x080003b0                __aeabi_dadd
-                0x080003b0                __adddf3
-                0x08000628                __floatunsidf
-                0x08000628                __aeabi_ui2d
-                0x08000648                __floatsidf
-                0x08000648                __aeabi_i2d
-                0x0800066c                __aeabi_f2d
-                0x0800066c                __extendsfdf2
-                0x080006b0                __floatundidf
-                0x080006b0                __aeabi_ul2d
-                0x080006c0                __floatdidf
-                0x080006c0                __aeabi_l2d
- .text          0x0800071c       0xa0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
-                0x0800071c                __truncdfsf2
-                0x0800071c                __aeabi_d2f
- .text          0x080007bc      0x21c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
-                0x080007bc                __aeabi_frsub
-                0x080007c4                __subsf3
-                0x080007c4                __aeabi_fsub
-                0x080007c8                __aeabi_fadd
-                0x080007c8                __addsf3
-                0x08000928                __aeabi_ui2f
-                0x08000928                __floatunsisf
-                0x08000930                __aeabi_i2f
-                0x08000930                __floatsisf
-                0x0800094c                __aeabi_ul2f
-                0x0800094c                __floatundisf
-                0x0800095c                __aeabi_l2f
-                0x0800095c                __floatdisf
- .text          0x080009d8      0x2a0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
-                0x080009d8                __mulsf3
-                0x080009d8                __aeabi_fmul
-                0x08000b40                __aeabi_fdiv
-                0x08000b40                __divsf3
+ .text          0x08000150       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-strlen.o)
+                0x08000150                strlen
+ .text          0x08000160      0x378 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                0x08000160                __aeabi_drsub
+                0x08000168                __aeabi_dsub
+                0x08000168                __subdf3
+                0x0800016c                __aeabi_dadd
+                0x0800016c                __adddf3
+                0x080003e4                __floatunsidf
+                0x080003e4                __aeabi_ui2d
+                0x08000404                __floatsidf
+                0x08000404                __aeabi_i2d
+                0x08000428                __aeabi_f2d
+                0x08000428                __extendsfdf2
+                0x0800046c                __floatundidf
+                0x0800046c                __aeabi_ul2d
+                0x0800047c                __floatdidf
+                0x0800047c                __aeabi_l2d
+ .text          0x080004d8      0x424 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                0x080004d8                __aeabi_dmul
+                0x080004d8                __muldf3
+                0x0800072c                __divdf3
+                0x0800072c                __aeabi_ddiv
+ .text          0x080008fc       0xa0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+                0x080008fc                __truncdfsf2
+                0x080008fc                __aeabi_d2f
+ .text          0x0800099c      0x21c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x0800099c                __aeabi_frsub
+                0x080009a4                __subsf3
+                0x080009a4                __aeabi_fsub
+                0x080009a8                __aeabi_fadd
+                0x080009a8                __addsf3
+                0x08000b08                __aeabi_ui2f
+                0x08000b08                __floatunsisf
+                0x08000b10                __aeabi_i2f
+                0x08000b10                __floatsisf
+                0x08000b2c                __aeabi_ul2f
+                0x08000b2c                __floatundisf
+                0x08000b3c                __aeabi_l2f
+                0x08000b3c                __floatdisf
+ .text          0x08000bb8      0x2a0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                0x08000bb8                __mulsf3
+                0x08000bb8                __aeabi_fmul
+                0x08000d20                __aeabi_fdiv
+                0x08000d20                __divsf3
+ .text          0x08000e58       0x4c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+                0x08000e58                __aeabi_f2iz
+                0x08000e58                __fixsfsi
  *(.text*)
  .text.MX_GPIO_Init
-                0x08000c78       0x30 build/main.o
+                0x08000ea4       0x30 build/main.o
  .text.Error_Handler
-                0x08000ca8        0x4 build/main.o
-                0x08000ca8                Error_Handler
+                0x08000ed4        0x4 build/main.o
+                0x08000ed4                Error_Handler
  .text.MX_ADC1_Init
-                0x08000cac       0x54 build/main.o
+                0x08000ed8       0x54 build/main.o
  .text.SystemClock_Config
-                0x08000d00       0x8c build/main.o
-                0x08000d00                SystemClock_Config
- .text.main     0x08000d8c       0x20 build/main.o
-                0x08000d8c                main
+                0x08000f2c       0x8c build/main.o
+                0x08000f2c                SystemClock_Config
+ .text.main     0x08000fb8       0x54 build/main.o
+                0x08000fb8                main
  .text.NMI_Handler
-                0x08000dac        0x2 build/stm32f1xx_it.o
-                0x08000dac                NMI_Handler
+                0x0800100c        0x2 build/stm32f1xx_it.o
+                0x0800100c                NMI_Handler
  .text.HardFault_Handler
-                0x08000dae        0x2 build/stm32f1xx_it.o
-                0x08000dae                HardFault_Handler
+                0x0800100e        0x2 build/stm32f1xx_it.o
+                0x0800100e                HardFault_Handler
  .text.MemManage_Handler
-                0x08000db0        0x2 build/stm32f1xx_it.o
-                0x08000db0                MemManage_Handler
+                0x08001010        0x2 build/stm32f1xx_it.o
+                0x08001010                MemManage_Handler
  .text.BusFault_Handler
-                0x08000db2        0x2 build/stm32f1xx_it.o
-                0x08000db2                BusFault_Handler
+                0x08001012        0x2 build/stm32f1xx_it.o
+                0x08001012                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000db4        0x2 build/stm32f1xx_it.o
-                0x08000db4                UsageFault_Handler
+                0x08001014        0x2 build/stm32f1xx_it.o
+                0x08001014                UsageFault_Handler
  .text.SVC_Handler
-                0x08000db6        0x2 build/stm32f1xx_it.o
-                0x08000db6                SVC_Handler
+                0x08001016        0x2 build/stm32f1xx_it.o
+                0x08001016                SVC_Handler
  .text.DebugMon_Handler
-                0x08000db8        0x2 build/stm32f1xx_it.o
-                0x08000db8                DebugMon_Handler
+                0x08001018        0x2 build/stm32f1xx_it.o
+                0x08001018                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000dba        0x2 build/stm32f1xx_it.o
-                0x08000dba                PendSV_Handler
+                0x0800101a        0x2 build/stm32f1xx_it.o
+                0x0800101a                PendSV_Handler
  .text.SysTick_Handler
-                0x08000dbc        0x8 build/stm32f1xx_it.o
-                0x08000dbc                SysTick_Handler
+                0x0800101c        0x8 build/stm32f1xx_it.o
+                0x0800101c                SysTick_Handler
  .text.USB_LP_CAN1_RX0_IRQHandler
-                0x08000dc4       0x10 build/stm32f1xx_it.o
-                0x08000dc4                USB_LP_CAN1_RX0_IRQHandler
+                0x08001024       0x10 build/stm32f1xx_it.o
+                0x08001024                USB_LP_CAN1_RX0_IRQHandler
  .text.HAL_MspInit
-                0x08000dd4       0x44 build/stm32f1xx_hal_msp.o
-                0x08000dd4                HAL_MspInit
+                0x08001034       0x44 build/stm32f1xx_hal_msp.o
+                0x08001034                HAL_MspInit
  .text.HAL_ADC_MspInit
-                0x08000e18       0x60 build/stm32f1xx_hal_msp.o
-                0x08000e18                HAL_ADC_MspInit
+                0x08001078       0x60 build/stm32f1xx_hal_msp.o
+                0x08001078                HAL_ADC_MspInit
  .text.HAL_InitTick
-                0x08000e78       0x4c build/stm32f1xx_hal.o
-                0x08000e78                HAL_InitTick
+                0x080010d8       0x4c build/stm32f1xx_hal.o
+                0x080010d8                HAL_InitTick
  .text.HAL_Init
-                0x08000ec4       0x24 build/stm32f1xx_hal.o
-                0x08000ec4                HAL_Init
+                0x08001124       0x24 build/stm32f1xx_hal.o
+                0x08001124                HAL_Init
  .text.HAL_IncTick
-                0x08000ee8       0x18 build/stm32f1xx_hal.o
-                0x08000ee8                HAL_IncTick
+                0x08001148       0x18 build/stm32f1xx_hal.o
+                0x08001148                HAL_IncTick
  .text.HAL_GetTick
-                0x08000f00        0xc build/stm32f1xx_hal.o
-                0x08000f00                HAL_GetTick
+                0x08001160        0xc build/stm32f1xx_hal.o
+                0x08001160                HAL_GetTick
  .text.HAL_Delay
-                0x08000f0c       0x28 build/stm32f1xx_hal.o
-                0x08000f0c                HAL_Delay
+                0x0800116c       0x28 build/stm32f1xx_hal.o
+                0x0800116c                HAL_Delay
  .text.RCC_Delay
-                0x08000f34       0x2c build/stm32f1xx_hal_rcc.o
+                0x08001194       0x2c build/stm32f1xx_hal_rcc.o
  .text.HAL_RCC_OscConfig
-                0x08000f60      0x410 build/stm32f1xx_hal_rcc.o
-                0x08000f60                HAL_RCC_OscConfig
+                0x080011c0      0x410 build/stm32f1xx_hal_rcc.o
+                0x080011c0                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001370       0x70 build/stm32f1xx_hal_rcc.o
-                0x08001370                HAL_RCC_GetSysClockFreq
+                0x080015d0       0x70 build/stm32f1xx_hal_rcc.o
+                0x080015d0                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x080013e0      0x16c build/stm32f1xx_hal_rcc.o
-                0x080013e0                HAL_RCC_ClockConfig
+                0x08001640      0x16c build/stm32f1xx_hal_rcc.o
+                0x08001640                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x0800154c        0xc build/stm32f1xx_hal_rcc.o
-                0x0800154c                HAL_RCC_GetHCLKFreq
+                0x080017ac        0xc build/stm32f1xx_hal_rcc.o
+                0x080017ac                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08001558       0x20 build/stm32f1xx_hal_rcc.o
-                0x08001558                HAL_RCC_GetPCLK2Freq
+                0x080017b8       0x20 build/stm32f1xx_hal_rcc.o
+                0x080017b8                HAL_RCC_GetPCLK2Freq
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x08001578      0x118 build/stm32f1xx_hal_rcc_ex.o
-                0x08001578                HAL_RCCEx_PeriphCLKConfig
+                0x080017d8      0x118 build/stm32f1xx_hal_rcc_ex.o
+                0x080017d8                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_RCCEx_GetPeriphCLKFreq
-                0x08001690      0x100 build/stm32f1xx_hal_rcc_ex.o
-                0x08001690                HAL_RCCEx_GetPeriphCLKFreq
+                0x080018f0      0x100 build/stm32f1xx_hal_rcc_ex.o
+                0x080018f0                HAL_RCCEx_GetPeriphCLKFreq
  .text.HAL_GPIO_Init
-                0x08001790      0x224 build/stm32f1xx_hal_gpio.o
-                0x08001790                HAL_GPIO_Init
+                0x080019f0      0x224 build/stm32f1xx_hal_gpio.o
+                0x080019f0                HAL_GPIO_Init
  .text.HAL_NVIC_SetPriorityGrouping
-                0x080019b4       0x24 build/stm32f1xx_hal_cortex.o
-                0x080019b4                HAL_NVIC_SetPriorityGrouping
+                0x08001c14       0x24 build/stm32f1xx_hal_cortex.o
+                0x08001c14                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x080019d8       0x70 build/stm32f1xx_hal_cortex.o
-                0x080019d8                HAL_NVIC_SetPriority
+                0x08001c38       0x70 build/stm32f1xx_hal_cortex.o
+                0x08001c38                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08001a48       0x1c build/stm32f1xx_hal_cortex.o
-                0x08001a48                HAL_NVIC_EnableIRQ
+                0x08001ca8       0x1c build/stm32f1xx_hal_cortex.o
+                0x08001ca8                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08001a64       0x28 build/stm32f1xx_hal_cortex.o
-                0x08001a64                HAL_SYSTICK_Config
+                0x08001cc4       0x28 build/stm32f1xx_hal_cortex.o
+                0x08001cc4                HAL_SYSTICK_Config
  .text.SystemInit
-                0x08001a8c        0x2 build/system_stm32f1xx.o
-                0x08001a8c                SystemInit
- *fill*         0x08001a8e        0x2 
+                0x08001cec        0x2 build/system_stm32f1xx.o
+                0x08001cec                SystemInit
+ *fill*         0x08001cee        0x2 
  .text.MX_USB_DEVICE_Init
-                0x08001a90       0x54 build/usb_device.o
-                0x08001a90                MX_USB_DEVICE_Init
+                0x08001cf0       0x54 build/usb_device.o
+                0x08001cf0                MX_USB_DEVICE_Init
  .text.USBD_FS_DeviceDescriptor
-                0x08001ae4        0xc build/usbd_desc.o
-                0x08001ae4                USBD_FS_DeviceDescriptor
+                0x08001d44        0xc build/usbd_desc.o
+                0x08001d44                USBD_FS_DeviceDescriptor
  .text.USBD_FS_LangIDStrDescriptor
-                0x08001af0        0xc build/usbd_desc.o
-                0x08001af0                USBD_FS_LangIDStrDescriptor
+                0x08001d50        0xc build/usbd_desc.o
+                0x08001d50                USBD_FS_LangIDStrDescriptor
  .text.IntToUnicode
-                0x08001afc       0x46 build/usbd_desc.o
- *fill*         0x08001b42        0x2 
+                0x08001d5c       0x46 build/usbd_desc.o
+ *fill*         0x08001da2        0x2 
  .text.Get_SerialNum
-                0x08001b44       0x38 build/usbd_desc.o
+                0x08001da4       0x38 build/usbd_desc.o
  .text.USBD_FS_SerialStrDescriptor
-                0x08001b7c       0x14 build/usbd_desc.o
-                0x08001b7c                USBD_FS_SerialStrDescriptor
+                0x08001ddc       0x14 build/usbd_desc.o
+                0x08001ddc                USBD_FS_SerialStrDescriptor
  .text.USBD_FS_ProductStrDescriptor
-                0x08001b90       0x24 build/usbd_desc.o
-                0x08001b90                USBD_FS_ProductStrDescriptor
+                0x08001df0       0x24 build/usbd_desc.o
+                0x08001df0                USBD_FS_ProductStrDescriptor
  .text.USBD_FS_ManufacturerStrDescriptor
-                0x08001bb4       0x1c build/usbd_desc.o
-                0x08001bb4                USBD_FS_ManufacturerStrDescriptor
+                0x08001e14       0x1c build/usbd_desc.o
+                0x08001e14                USBD_FS_ManufacturerStrDescriptor
  .text.USBD_FS_ConfigStrDescriptor
-                0x08001bd0       0x24 build/usbd_desc.o
-                0x08001bd0                USBD_FS_ConfigStrDescriptor
+                0x08001e30       0x24 build/usbd_desc.o
+                0x08001e30                USBD_FS_ConfigStrDescriptor
  .text.USBD_FS_InterfaceStrDescriptor
-                0x08001bf4       0x24 build/usbd_desc.o
-                0x08001bf4                USBD_FS_InterfaceStrDescriptor
+                0x08001e54       0x24 build/usbd_desc.o
+                0x08001e54                USBD_FS_InterfaceStrDescriptor
  .text.CDC_DeInit_FS
-                0x08001c18        0x4 build/usbd_cdc_if.o
+                0x08001e78        0x4 build/usbd_cdc_if.o
  .text.CDC_Control_FS
-                0x08001c1c        0x4 build/usbd_cdc_if.o
+                0x08001e7c        0x4 build/usbd_cdc_if.o
  .text.CDC_Receive_FS
-                0x08001c20       0x1c build/usbd_cdc_if.o
+                0x08001e80       0x1c build/usbd_cdc_if.o
  .text.CDC_Init_FS
-                0x08001c3c       0x28 build/usbd_cdc_if.o
+                0x08001e9c       0x28 build/usbd_cdc_if.o
+ .text.CDC_Transmit_FS
+                0x08001ec4       0x2c build/usbd_cdc_if.o
+                0x08001ec4                CDC_Transmit_FS
  .text.USBD_Get_USB_Status
-                0x08001c64       0x14 build/usbd_conf.o
+                0x08001ef0       0x14 build/usbd_conf.o
  .text.HAL_PCD_MspInit
-                0x08001c78       0x40 build/usbd_conf.o
-                0x08001c78                HAL_PCD_MspInit
+                0x08001f04       0x40 build/usbd_conf.o
+                0x08001f04                HAL_PCD_MspInit
  .text.HAL_PCD_SetupStageCallback
-                0x08001cb8       0x10 build/usbd_conf.o
-                0x08001cb8                HAL_PCD_SetupStageCallback
+                0x08001f44       0x10 build/usbd_conf.o
+                0x08001f44                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x08001cc8       0x18 build/usbd_conf.o
-                0x08001cc8                HAL_PCD_DataOutStageCallback
+                0x08001f54       0x18 build/usbd_conf.o
+                0x08001f54                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x08001ce0       0x16 build/usbd_conf.o
-                0x08001ce0                HAL_PCD_DataInStageCallback
+                0x08001f6c       0x16 build/usbd_conf.o
+                0x08001f6c                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x08001cf6        0xc build/usbd_conf.o
-                0x08001cf6                HAL_PCD_SOFCallback
+                0x08001f82        0xc build/usbd_conf.o
+                0x08001f82                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x08001d02       0x24 build/usbd_conf.o
-                0x08001d02                HAL_PCD_ResetCallback
- *fill*         0x08001d26        0x2 
+                0x08001f8e       0x24 build/usbd_conf.o
+                0x08001f8e                HAL_PCD_ResetCallback
+ *fill*         0x08001fb2        0x2 
  .text.HAL_PCD_SuspendCallback
-                0x08001d28       0x20 build/usbd_conf.o
-                0x08001d28                HAL_PCD_SuspendCallback
+                0x08001fb4       0x20 build/usbd_conf.o
+                0x08001fb4                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x08001d48        0xc build/usbd_conf.o
-                0x08001d48                HAL_PCD_ResumeCallback
+                0x08001fd4        0xc build/usbd_conf.o
+                0x08001fd4                HAL_PCD_ResumeCallback
  .text.USBD_LL_Init
-                0x08001d54       0x84 build/usbd_conf.o
-                0x08001d54                USBD_LL_Init
+                0x08001fe0       0x84 build/usbd_conf.o
+                0x08001fe0                USBD_LL_Init
  .text.USBD_LL_Start
-                0x08001dd8       0x10 build/usbd_conf.o
-                0x08001dd8                USBD_LL_Start
+                0x08002064       0x10 build/usbd_conf.o
+                0x08002064                USBD_LL_Start
  .text.USBD_LL_OpenEP
-                0x08001de8       0x16 build/usbd_conf.o
-                0x08001de8                USBD_LL_OpenEP
+                0x08002074       0x16 build/usbd_conf.o
+                0x08002074                USBD_LL_OpenEP
  .text.USBD_LL_CloseEP
-                0x08001dfe       0x10 build/usbd_conf.o
-                0x08001dfe                USBD_LL_CloseEP
+                0x0800208a       0x10 build/usbd_conf.o
+                0x0800208a                USBD_LL_CloseEP
  .text.USBD_LL_StallEP
-                0x08001e0e       0x10 build/usbd_conf.o
-                0x08001e0e                USBD_LL_StallEP
+                0x0800209a       0x10 build/usbd_conf.o
+                0x0800209a                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x08001e1e       0x10 build/usbd_conf.o
-                0x08001e1e                USBD_LL_ClearStallEP
+                0x080020aa       0x10 build/usbd_conf.o
+                0x080020aa                USBD_LL_ClearStallEP
  .text.USBD_LL_IsStallEP
-                0x08001e2e       0x2e build/usbd_conf.o
-                0x08001e2e                USBD_LL_IsStallEP
+                0x080020ba       0x2e build/usbd_conf.o
+                0x080020ba                USBD_LL_IsStallEP
  .text.USBD_LL_SetUSBAddress
-                0x08001e5c       0x10 build/usbd_conf.o
-                0x08001e5c                USBD_LL_SetUSBAddress
+                0x080020e8       0x10 build/usbd_conf.o
+                0x080020e8                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x08001e6c       0x10 build/usbd_conf.o
-                0x08001e6c                USBD_LL_Transmit
+                0x080020f8       0x10 build/usbd_conf.o
+                0x080020f8                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x08001e7c       0x10 build/usbd_conf.o
-                0x08001e7c                USBD_LL_PrepareReceive
+                0x08002108       0x10 build/usbd_conf.o
+                0x08002108                USBD_LL_PrepareReceive
  .text.USBD_LL_GetRxDataSize
-                0x08001e8c        0xc build/usbd_conf.o
-                0x08001e8c                USBD_LL_GetRxDataSize
+                0x08002118        0xc build/usbd_conf.o
+                0x08002118                USBD_LL_GetRxDataSize
  .text.USBD_static_malloc
-                0x08001e98        0x8 build/usbd_conf.o
-                0x08001e98                USBD_static_malloc
+                0x08002124        0x8 build/usbd_conf.o
+                0x08002124                USBD_static_malloc
  .text.USBD_static_free
-                0x08001ea0        0x2 build/usbd_conf.o
-                0x08001ea0                USBD_static_free
+                0x0800212c        0x2 build/usbd_conf.o
+                0x0800212c                USBD_static_free
  .text.HAL_PCDEx_SetConnectionState
-                0x08001ea2        0x2 build/usbd_conf.o
-                0x08001ea2                HAL_PCDEx_SetConnectionState
+                0x0800212e        0x2 build/usbd_conf.o
+                0x0800212e                HAL_PCDEx_SetConnectionState
  .text.HAL_PCD_EP_DB_Receive
-                0x08001ea4      0x11c build/stm32f1xx_hal_pcd.o
+                0x08002130      0x11c build/stm32f1xx_hal_pcd.o
  .text.HAL_PCD_Init
-                0x08001fc0      0x118 build/stm32f1xx_hal_pcd.o
-                0x08001fc0                HAL_PCD_Init
+                0x0800224c      0x118 build/stm32f1xx_hal_pcd.o
+                0x0800224c                HAL_PCD_Init
  .text.HAL_PCD_Start
-                0x080020d8       0x32 build/stm32f1xx_hal_pcd.o
-                0x080020d8                HAL_PCD_Start
+                0x08002364       0x32 build/stm32f1xx_hal_pcd.o
+                0x08002364                HAL_PCD_Start
  .text.HAL_PCD_EP_DB_Transmit
-                0x0800210a      0x420 build/stm32f1xx_hal_pcd.o
+                0x08002396      0x420 build/stm32f1xx_hal_pcd.o
  .text.PCD_EP_ISR_Handler
-                0x0800252a      0x438 build/stm32f1xx_hal_pcd.o
+                0x080027b6      0x438 build/stm32f1xx_hal_pcd.o
  .text.HAL_PCD_SetAddress
-                0x08002962       0x28 build/stm32f1xx_hal_pcd.o
-                0x08002962                HAL_PCD_SetAddress
+                0x08002bee       0x28 build/stm32f1xx_hal_pcd.o
+                0x08002bee                HAL_PCD_SetAddress
  .text.HAL_PCD_IRQHandler
-                0x0800298a      0x1d4 build/stm32f1xx_hal_pcd.o
-                0x0800298a                HAL_PCD_IRQHandler
+                0x08002c16      0x1d4 build/stm32f1xx_hal_pcd.o
+                0x08002c16                HAL_PCD_IRQHandler
  .text.HAL_PCD_EP_Open
-                0x08002b5e       0x84 build/stm32f1xx_hal_pcd.o
-                0x08002b5e                HAL_PCD_EP_Open
+                0x08002dea       0x84 build/stm32f1xx_hal_pcd.o
+                0x08002dea                HAL_PCD_EP_Open
  .text.HAL_PCD_EP_Close
-                0x08002be2       0x64 build/stm32f1xx_hal_pcd.o
-                0x08002be2                HAL_PCD_EP_Close
+                0x08002e6e       0x64 build/stm32f1xx_hal_pcd.o
+                0x08002e6e                HAL_PCD_EP_Close
  .text.HAL_PCD_EP_Receive
-                0x08002c46       0x44 build/stm32f1xx_hal_pcd.o
-                0x08002c46                HAL_PCD_EP_Receive
+                0x08002ed2       0x44 build/stm32f1xx_hal_pcd.o
+                0x08002ed2                HAL_PCD_EP_Receive
  .text.HAL_PCD_EP_GetRxCount
-                0x08002c8a       0x12 build/stm32f1xx_hal_pcd.o
-                0x08002c8a                HAL_PCD_EP_GetRxCount
+                0x08002f16       0x12 build/stm32f1xx_hal_pcd.o
+                0x08002f16                HAL_PCD_EP_GetRxCount
  .text.HAL_PCD_EP_Transmit
-                0x08002c9c       0x50 build/stm32f1xx_hal_pcd.o
-                0x08002c9c                HAL_PCD_EP_Transmit
+                0x08002f28       0x50 build/stm32f1xx_hal_pcd.o
+                0x08002f28                HAL_PCD_EP_Transmit
  .text.HAL_PCD_EP_SetStall
-                0x08002cec       0x78 build/stm32f1xx_hal_pcd.o
-                0x08002cec                HAL_PCD_EP_SetStall
+                0x08002f78       0x78 build/stm32f1xx_hal_pcd.o
+                0x08002f78                HAL_PCD_EP_SetStall
  .text.HAL_PCD_EP_ClrStall
-                0x08002d64       0x76 build/stm32f1xx_hal_pcd.o
-                0x08002d64                HAL_PCD_EP_ClrStall
+                0x08002ff0       0x76 build/stm32f1xx_hal_pcd.o
+                0x08002ff0                HAL_PCD_EP_ClrStall
  .text.HAL_PCDEx_PMAConfig
-                0x08002dda       0x38 build/stm32f1xx_hal_pcd_ex.o
-                0x08002dda                HAL_PCDEx_PMAConfig
+                0x08003066       0x38 build/stm32f1xx_hal_pcd_ex.o
+                0x08003066                HAL_PCDEx_PMAConfig
  .text.USB_CoreInit
-                0x08002e12        0xe build/stm32f1xx_ll_usb.o
-                0x08002e12                USB_CoreInit
+                0x0800309e        0xe build/stm32f1xx_ll_usb.o
+                0x0800309e                USB_CoreInit
  .text.USB_EnableGlobalInt
-                0x08002e20       0x12 build/stm32f1xx_ll_usb.o
-                0x08002e20                USB_EnableGlobalInt
+                0x080030ac       0x12 build/stm32f1xx_ll_usb.o
+                0x080030ac                USB_EnableGlobalInt
  .text.USB_DisableGlobalInt
-                0x08002e32       0x14 build/stm32f1xx_ll_usb.o
-                0x08002e32                USB_DisableGlobalInt
+                0x080030be       0x14 build/stm32f1xx_ll_usb.o
+                0x080030be                USB_DisableGlobalInt
  .text.USB_SetCurrentMode
-                0x08002e46        0x4 build/stm32f1xx_ll_usb.o
-                0x08002e46                USB_SetCurrentMode
+                0x080030d2        0x4 build/stm32f1xx_ll_usb.o
+                0x080030d2                USB_SetCurrentMode
  .text.USB_DevInit
-                0x08002e4a       0x22 build/stm32f1xx_ll_usb.o
-                0x08002e4a                USB_DevInit
+                0x080030d6       0x22 build/stm32f1xx_ll_usb.o
+                0x080030d6                USB_DevInit
  .text.USB_ActivateEndpoint
-                0x08002e6c      0x378 build/stm32f1xx_ll_usb.o
-                0x08002e6c                USB_ActivateEndpoint
+                0x080030f8      0x378 build/stm32f1xx_ll_usb.o
+                0x080030f8                USB_ActivateEndpoint
  .text.USB_DeactivateEndpoint
-                0x080031e4      0x1d6 build/stm32f1xx_ll_usb.o
-                0x080031e4                USB_DeactivateEndpoint
+                0x08003470      0x1d6 build/stm32f1xx_ll_usb.o
+                0x08003470                USB_DeactivateEndpoint
  .text.USB_EPSetStall
-                0x080033ba       0x4a build/stm32f1xx_ll_usb.o
-                0x080033ba                USB_EPSetStall
+                0x08003646       0x4a build/stm32f1xx_ll_usb.o
+                0x08003646                USB_EPSetStall
  .text.USB_EPClearStall
-                0x08003404       0xa2 build/stm32f1xx_ll_usb.o
-                0x08003404                USB_EPClearStall
+                0x08003690       0xa2 build/stm32f1xx_ll_usb.o
+                0x08003690                USB_EPClearStall
  .text.USB_SetDevAddress
-                0x080034a6        0xc build/stm32f1xx_ll_usb.o
-                0x080034a6                USB_SetDevAddress
+                0x08003732        0xc build/stm32f1xx_ll_usb.o
+                0x08003732                USB_SetDevAddress
  .text.USB_DevConnect
-                0x080034b2        0x4 build/stm32f1xx_ll_usb.o
-                0x080034b2                USB_DevConnect
+                0x0800373e        0x4 build/stm32f1xx_ll_usb.o
+                0x0800373e                USB_DevConnect
  .text.USB_DevDisconnect
-                0x080034b6        0x4 build/stm32f1xx_ll_usb.o
-                0x080034b6                USB_DevDisconnect
+                0x08003742        0x4 build/stm32f1xx_ll_usb.o
+                0x08003742                USB_DevDisconnect
  .text.USB_ReadInterrupts
-                0x080034ba        0x8 build/stm32f1xx_ll_usb.o
-                0x080034ba                USB_ReadInterrupts
+                0x08003746        0x8 build/stm32f1xx_ll_usb.o
+                0x08003746                USB_ReadInterrupts
  .text.USB_EP0_OutStart
-                0x080034c2        0x4 build/stm32f1xx_ll_usb.o
-                0x080034c2                USB_EP0_OutStart
+                0x0800374e        0x4 build/stm32f1xx_ll_usb.o
+                0x0800374e                USB_EP0_OutStart
  .text.USB_WritePMA
-                0x080034c6       0x28 build/stm32f1xx_ll_usb.o
-                0x080034c6                USB_WritePMA
+                0x08003752       0x28 build/stm32f1xx_ll_usb.o
+                0x08003752                USB_WritePMA
  .text.USB_EPStartXfer
-                0x080034ee      0x8b2 build/stm32f1xx_ll_usb.o
-                0x080034ee                USB_EPStartXfer
+                0x0800377a      0x8b2 build/stm32f1xx_ll_usb.o
+                0x0800377a                USB_EPStartXfer
  .text.USB_ReadPMA
-                0x08003da0       0x30 build/stm32f1xx_ll_usb.o
-                0x08003da0                USB_ReadPMA
+                0x0800402c       0x30 build/stm32f1xx_ll_usb.o
+                0x0800402c                USB_ReadPMA
  .text.HAL_ADC_PollForConversion
-                0x08003dd0      0x184 build/stm32f1xx_hal_adc.o
-                0x08003dd0                HAL_ADC_PollForConversion
+                0x0800405c      0x184 build/stm32f1xx_hal_adc.o
+                0x0800405c                HAL_ADC_PollForConversion
  .text.HAL_ADC_GetValue
-                0x08003f54        0x6 build/stm32f1xx_hal_adc.o
-                0x08003f54                HAL_ADC_GetValue
- *fill*         0x08003f5a        0x2 
+                0x080041e0        0x6 build/stm32f1xx_hal_adc.o
+                0x080041e0                HAL_ADC_GetValue
+ *fill*         0x080041e6        0x2 
  .text.HAL_ADC_ConfigChannel
-                0x08003f5c      0x144 build/stm32f1xx_hal_adc.o
-                0x08003f5c                HAL_ADC_ConfigChannel
+                0x080041e8      0x144 build/stm32f1xx_hal_adc.o
+                0x080041e8                HAL_ADC_ConfigChannel
  .text.ADC_Enable
-                0x080040a0       0x88 build/stm32f1xx_hal_adc.o
-                0x080040a0                ADC_Enable
+                0x0800432c       0x88 build/stm32f1xx_hal_adc.o
+                0x0800432c                ADC_Enable
  .text.HAL_ADC_Start
-                0x08004128       0xe8 build/stm32f1xx_hal_adc.o
-                0x08004128                HAL_ADC_Start
+                0x080043b4       0xe8 build/stm32f1xx_hal_adc.o
+                0x080043b4                HAL_ADC_Start
  .text.ADC_ConversionStop_Disable
-                0x08004210       0x56 build/stm32f1xx_hal_adc.o
-                0x08004210                ADC_ConversionStop_Disable
- *fill*         0x08004266        0x2 
+                0x0800449c       0x56 build/stm32f1xx_hal_adc.o
+                0x0800449c                ADC_ConversionStop_Disable
+ *fill*         0x080044f2        0x2 
  .text.HAL_ADC_Init
-                0x08004268      0x108 build/stm32f1xx_hal_adc.o
-                0x08004268                HAL_ADC_Init
+                0x080044f4      0x108 build/stm32f1xx_hal_adc.o
+                0x080044f4                HAL_ADC_Init
  .text.HAL_ADC_Stop
-                0x08004370       0x34 build/stm32f1xx_hal_adc.o
-                0x08004370                HAL_ADC_Stop
+                0x080045fc       0x34 build/stm32f1xx_hal_adc.o
+                0x080045fc                HAL_ADC_Stop
  .text.USBD_Init
-                0x080043a4       0x2e build/usbd_core.o
-                0x080043a4                USBD_Init
+                0x08004630       0x2e build/usbd_core.o
+                0x08004630                USBD_Init
  .text.USBD_RegisterClass
-                0x080043d2        0xe build/usbd_core.o
-                0x080043d2                USBD_RegisterClass
+                0x0800465e        0xe build/usbd_core.o
+                0x0800465e                USBD_RegisterClass
  .text.USBD_Start
-                0x080043e0        0xa build/usbd_core.o
-                0x080043e0                USBD_Start
+                0x0800466c        0xa build/usbd_core.o
+                0x0800466c                USBD_Start
  .text.USBD_SetClassConfig
-                0x080043ea       0x18 build/usbd_core.o
-                0x080043ea                USBD_SetClassConfig
+                0x08004676       0x18 build/usbd_core.o
+                0x08004676                USBD_SetClassConfig
  .text.USBD_ClrClassConfig
-                0x08004402        0xe build/usbd_core.o
-                0x08004402                USBD_ClrClassConfig
+                0x0800468e        0xe build/usbd_core.o
+                0x0800468e                USBD_ClrClassConfig
  .text.USBD_LL_SetupStage
-                0x08004410       0x5a build/usbd_core.o
-                0x08004410                USBD_LL_SetupStage
+                0x0800469c       0x5a build/usbd_core.o
+                0x0800469c                USBD_LL_SetupStage
  .text.USBD_LL_DataOutStage
-                0x0800446a       0x8c build/usbd_core.o
-                0x0800446a                USBD_LL_DataOutStage
+                0x080046f6       0x8c build/usbd_core.o
+                0x080046f6                USBD_LL_DataOutStage
  .text.USBD_LL_DataInStage
-                0x080044f6       0xd0 build/usbd_core.o
-                0x080044f6                USBD_LL_DataInStage
+                0x08004782       0xd0 build/usbd_core.o
+                0x08004782                USBD_LL_DataInStage
  .text.USBD_LL_Reset
-                0x080045c6       0x50 build/usbd_core.o
-                0x080045c6                USBD_LL_Reset
+                0x08004852       0x50 build/usbd_core.o
+                0x08004852                USBD_LL_Reset
  .text.USBD_LL_SetSpeed
-                0x08004616        0x6 build/usbd_core.o
-                0x08004616                USBD_LL_SetSpeed
+                0x080048a2        0x6 build/usbd_core.o
+                0x080048a2                USBD_LL_SetSpeed
  .text.USBD_LL_Suspend
-                0x0800461c       0x12 build/usbd_core.o
-                0x0800461c                USBD_LL_Suspend
+                0x080048a8       0x12 build/usbd_core.o
+                0x080048a8                USBD_LL_Suspend
  .text.USBD_LL_Resume
-                0x0800462e       0x16 build/usbd_core.o
-                0x0800462e                USBD_LL_Resume
+                0x080048ba       0x16 build/usbd_core.o
+                0x080048ba                USBD_LL_Resume
  .text.USBD_LL_SOF
-                0x08004644       0x1c build/usbd_core.o
-                0x08004644                USBD_LL_SOF
+                0x080048d0       0x1c build/usbd_core.o
+                0x080048d0                USBD_LL_SOF
  .text.USBD_GetLen
-                0x08004660       0x14 build/usbd_ctlreq.o
+                0x080048ec       0x14 build/usbd_ctlreq.o
  .text.USBD_SetFeature
-                0x08004674       0x14 build/usbd_ctlreq.o
+                0x08004900       0x14 build/usbd_ctlreq.o
  .text.USBD_ParseSetupRequest
-                0x08004688       0x28 build/usbd_ctlreq.o
-                0x08004688                USBD_ParseSetupRequest
+                0x08004914       0x28 build/usbd_ctlreq.o
+                0x08004914                USBD_ParseSetupRequest
  .text.USBD_CtlError
-                0x080046b0       0x14 build/usbd_ctlreq.o
-                0x080046b0                USBD_CtlError
+                0x0800493c       0x14 build/usbd_ctlreq.o
+                0x0800493c                USBD_CtlError
  .text.USBD_GetDescriptor
-                0x080046c4      0x186 build/usbd_ctlreq.o
+                0x08004950      0x186 build/usbd_ctlreq.o
  .text.USBD_SetAddress
-                0x0800484a       0x4e build/usbd_ctlreq.o
+                0x08004ad6       0x4e build/usbd_ctlreq.o
  .text.USBD_SetConfig
-                0x08004898       0xb0 build/usbd_ctlreq.o
+                0x08004b24       0xb0 build/usbd_ctlreq.o
  .text.USBD_GetConfig
-                0x08004948       0x3e build/usbd_ctlreq.o
+                0x08004bd4       0x3e build/usbd_ctlreq.o
  .text.USBD_GetStatus
-                0x08004986       0x38 build/usbd_ctlreq.o
+                0x08004c12       0x38 build/usbd_ctlreq.o
  .text.USBD_ClrFeature
-                0x080049be       0x26 build/usbd_ctlreq.o
+                0x08004c4a       0x26 build/usbd_ctlreq.o
  .text.USBD_StdDevReq
-                0x080049e4       0x68 build/usbd_ctlreq.o
-                0x080049e4                USBD_StdDevReq
+                0x08004c70       0x68 build/usbd_ctlreq.o
+                0x08004c70                USBD_StdDevReq
  .text.USBD_StdItfReq
-                0x08004a4c       0x60 build/usbd_ctlreq.o
-                0x08004a4c                USBD_StdItfReq
+                0x08004cd8       0x60 build/usbd_ctlreq.o
+                0x08004cd8                USBD_StdItfReq
  .text.USBD_StdEPReq
-                0x08004aac      0x1e2 build/usbd_ctlreq.o
-                0x08004aac                USBD_StdEPReq
+                0x08004d38      0x1e2 build/usbd_ctlreq.o
+                0x08004d38                USBD_StdEPReq
  .text.USBD_GetString
-                0x08004c8e       0x3a build/usbd_ctlreq.o
-                0x08004c8e                USBD_GetString
+                0x08004f1a       0x3a build/usbd_ctlreq.o
+                0x08004f1a                USBD_GetString
  .text.USBD_CtlSendData
-                0x08004cc8       0x1a build/usbd_ioreq.o
-                0x08004cc8                USBD_CtlSendData
+                0x08004f54       0x1a build/usbd_ioreq.o
+                0x08004f54                USBD_CtlSendData
  .text.USBD_CtlContinueSendData
-                0x08004ce2       0x10 build/usbd_ioreq.o
-                0x08004ce2                USBD_CtlContinueSendData
+                0x08004f6e       0x10 build/usbd_ioreq.o
+                0x08004f6e                USBD_CtlContinueSendData
  .text.USBD_CtlPrepareRx
-                0x08004cf2       0x1e build/usbd_ioreq.o
-                0x08004cf2                USBD_CtlPrepareRx
+                0x08004f7e       0x1e build/usbd_ioreq.o
+                0x08004f7e                USBD_CtlPrepareRx
  .text.USBD_CtlContinueRx
-                0x08004d10       0x10 build/usbd_ioreq.o
-                0x08004d10                USBD_CtlContinueRx
+                0x08004f9c       0x10 build/usbd_ioreq.o
+                0x08004f9c                USBD_CtlContinueRx
  .text.USBD_CtlSendStatus
-                0x08004d20       0x16 build/usbd_ioreq.o
-                0x08004d20                USBD_CtlSendStatus
+                0x08004fac       0x16 build/usbd_ioreq.o
+                0x08004fac                USBD_CtlSendStatus
  .text.USBD_CtlReceiveStatus
-                0x08004d36       0x16 build/usbd_ioreq.o
-                0x08004d36                USBD_CtlReceiveStatus
+                0x08004fc2       0x16 build/usbd_ioreq.o
+                0x08004fc2                USBD_CtlReceiveStatus
+ .text.set_adc  0x08004fd8       0x24 build/srv_sens_main.o
+                0x08004fd8                set_adc
  .text.srv_sens_init
-                0x08004d4c       0x30 build/srv_sens_main.o
-                0x08004d4c                srv_sens_init
- *fill*         0x08004d7c        0x4 
+                0x08004ffc       0x30 build/srv_sens_main.o
+                0x08004ffc                srv_sens_init
+ .text.get_sensor_data
+                0x0800502c       0x14 build/srv_sens_main.o
+                0x0800502c                get_sensor_data
  .text.srv_sens_main
-                0x08004d80       0x80 build/srv_sens_main.o
-                0x08004d80                srv_sens_main
+                0x08005040       0xdc build/srv_sens_main.o
+                0x08005040                srv_sens_main
  .text.USBD_CDC_EP0_RxReady
-                0x08004e00       0x28 build/usbd_cdc.o
+                0x0800511c       0x28 build/usbd_cdc.o
  .text.USBD_CDC_GetFSCfgDesc
-                0x08004e28        0xc build/usbd_cdc.o
+                0x08005144        0xc build/usbd_cdc.o
  .text.USBD_CDC_GetHSCfgDesc
-                0x08004e34        0xc build/usbd_cdc.o
+                0x08005150        0xc build/usbd_cdc.o
  .text.USBD_CDC_GetOtherSpeedCfgDesc
-                0x08004e40        0xc build/usbd_cdc.o
+                0x0800515c        0xc build/usbd_cdc.o
  .text.USBD_CDC_GetDeviceQualifierDescriptor
-                0x08004e4c        0xc build/usbd_cdc.o
-                0x08004e4c                USBD_CDC_GetDeviceQualifierDescriptor
+                0x08005168        0xc build/usbd_cdc.o
+                0x08005168                USBD_CDC_GetDeviceQualifierDescriptor
  .text.USBD_CDC_DataOut
-                0x08004e58       0x2e build/usbd_cdc.o
+                0x08005174       0x2e build/usbd_cdc.o
  .text.USBD_CDC_DataIn
-                0x08004e86       0x4e build/usbd_cdc.o
+                0x080051a2       0x4e build/usbd_cdc.o
  .text.USBD_CDC_Setup
-                0x08004ed4       0xd6 build/usbd_cdc.o
+                0x080051f0       0xd6 build/usbd_cdc.o
  .text.USBD_CDC_DeInit
-                0x08004faa       0x42 build/usbd_cdc.o
+                0x080052c6       0x42 build/usbd_cdc.o
  .text.USBD_CDC_Init
-                0x08004fec       0xaa build/usbd_cdc.o
+                0x08005308       0xaa build/usbd_cdc.o
  .text.USBD_CDC_RegisterInterface
-                0x08005096        0xe build/usbd_cdc.o
-                0x08005096                USBD_CDC_RegisterInterface
+                0x080053b2        0xe build/usbd_cdc.o
+                0x080053b2                USBD_CDC_RegisterInterface
  .text.USBD_CDC_SetTxBuffer
-                0x080050a4       0x10 build/usbd_cdc.o
-                0x080050a4                USBD_CDC_SetTxBuffer
+                0x080053c0       0x10 build/usbd_cdc.o
+                0x080053c0                USBD_CDC_SetTxBuffer
  .text.USBD_CDC_SetRxBuffer
-                0x080050b4        0xc build/usbd_cdc.o
-                0x080050b4                USBD_CDC_SetRxBuffer
+                0x080053d0        0xc build/usbd_cdc.o
+                0x080053d0                USBD_CDC_SetRxBuffer
+ .text.USBD_CDC_TransmitPacket
+                0x080053dc       0x34 build/usbd_cdc.o
+                0x080053dc                USBD_CDC_TransmitPacket
  .text.USBD_CDC_ReceivePacket
-                0x080050c0       0x30 build/usbd_cdc.o
-                0x080050c0                USBD_CDC_ReceivePacket
+                0x08005410       0x30 build/usbd_cdc.o
+                0x08005410                USBD_CDC_ReceivePacket
  .text.Reset_Handler
-                0x080050f0       0x48 build/startup_stm32f103xb.o
-                0x080050f0                Reset_Handler
+                0x08005440       0x48 build/startup_stm32f103xb.o
+                0x08005440                Reset_Handler
  .text.Default_Handler
-                0x08005138        0x2 build/startup_stm32f103xb.o
-                0x08005138                RTC_Alarm_IRQHandler
-                0x08005138                EXTI2_IRQHandler
-                0x08005138                TIM1_CC_IRQHandler
-                0x08005138                PVD_IRQHandler
-                0x08005138                EXTI3_IRQHandler
-                0x08005138                EXTI0_IRQHandler
-                0x08005138                I2C2_EV_IRQHandler
-                0x08005138                ADC1_2_IRQHandler
-                0x08005138                SPI1_IRQHandler
-                0x08005138                TAMPER_IRQHandler
-                0x08005138                DMA1_Channel4_IRQHandler
-                0x08005138                USART3_IRQHandler
-                0x08005138                RTC_IRQHandler
-                0x08005138                DMA1_Channel7_IRQHandler
-                0x08005138                CAN1_RX1_IRQHandler
-                0x08005138                TIM4_IRQHandler
-                0x08005138                I2C1_EV_IRQHandler
-                0x08005138                DMA1_Channel6_IRQHandler
-                0x08005138                TIM3_IRQHandler
-                0x08005138                RCC_IRQHandler
-                0x08005138                TIM1_TRG_COM_IRQHandler
-                0x08005138                DMA1_Channel1_IRQHandler
-                0x08005138                Default_Handler
-                0x08005138                EXTI15_10_IRQHandler
-                0x08005138                EXTI9_5_IRQHandler
-                0x08005138                SPI2_IRQHandler
-                0x08005138                DMA1_Channel5_IRQHandler
-                0x08005138                EXTI4_IRQHandler
-                0x08005138                USB_HP_CAN1_TX_IRQHandler
-                0x08005138                DMA1_Channel3_IRQHandler
-                0x08005138                TIM1_UP_IRQHandler
-                0x08005138                WWDG_IRQHandler
-                0x08005138                TIM2_IRQHandler
-                0x08005138                TIM1_BRK_IRQHandler
-                0x08005138                EXTI1_IRQHandler
-                0x08005138                USART2_IRQHandler
-                0x08005138                I2C2_ER_IRQHandler
-                0x08005138                DMA1_Channel2_IRQHandler
-                0x08005138                CAN1_SCE_IRQHandler
-                0x08005138                FLASH_IRQHandler
-                0x08005138                USART1_IRQHandler
-                0x08005138                I2C1_ER_IRQHandler
-                0x08005138                USBWakeUp_IRQHandler
- *fill*         0x0800513a        0x2 
+                0x08005488        0x2 build/startup_stm32f103xb.o
+                0x08005488                RTC_Alarm_IRQHandler
+                0x08005488                EXTI2_IRQHandler
+                0x08005488                TIM1_CC_IRQHandler
+                0x08005488                PVD_IRQHandler
+                0x08005488                EXTI3_IRQHandler
+                0x08005488                EXTI0_IRQHandler
+                0x08005488                I2C2_EV_IRQHandler
+                0x08005488                ADC1_2_IRQHandler
+                0x08005488                SPI1_IRQHandler
+                0x08005488                TAMPER_IRQHandler
+                0x08005488                DMA1_Channel4_IRQHandler
+                0x08005488                USART3_IRQHandler
+                0x08005488                RTC_IRQHandler
+                0x08005488                DMA1_Channel7_IRQHandler
+                0x08005488                CAN1_RX1_IRQHandler
+                0x08005488                TIM4_IRQHandler
+                0x08005488                I2C1_EV_IRQHandler
+                0x08005488                DMA1_Channel6_IRQHandler
+                0x08005488                TIM3_IRQHandler
+                0x08005488                RCC_IRQHandler
+                0x08005488                TIM1_TRG_COM_IRQHandler
+                0x08005488                DMA1_Channel1_IRQHandler
+                0x08005488                Default_Handler
+                0x08005488                EXTI15_10_IRQHandler
+                0x08005488                EXTI9_5_IRQHandler
+                0x08005488                SPI2_IRQHandler
+                0x08005488                DMA1_Channel5_IRQHandler
+                0x08005488                EXTI4_IRQHandler
+                0x08005488                USB_HP_CAN1_TX_IRQHandler
+                0x08005488                DMA1_Channel3_IRQHandler
+                0x08005488                TIM1_UP_IRQHandler
+                0x08005488                WWDG_IRQHandler
+                0x08005488                TIM2_IRQHandler
+                0x08005488                TIM1_BRK_IRQHandler
+                0x08005488                EXTI1_IRQHandler
+                0x08005488                USART2_IRQHandler
+                0x08005488                I2C2_ER_IRQHandler
+                0x08005488                DMA1_Channel2_IRQHandler
+                0x08005488                CAN1_SCE_IRQHandler
+                0x08005488                FLASH_IRQHandler
+                0x08005488                USART1_IRQHandler
+                0x08005488                I2C1_ER_IRQHandler
+                0x08005488                USBWakeUp_IRQHandler
+ *fill*         0x0800548a        0x2 
  .text.__libc_init_array
-                0x0800513c       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
-                0x0800513c                __libc_init_array
- .text.memset   0x08005184       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
-                0x08005184                memset
+                0x0800548c       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
+                0x0800548c                __libc_init_array
+ .text.memset   0x080054d4       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
+                0x080054d4                memset
+ .text.sprintf  0x080054e4       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+                0x080054e4                siprintf
+                0x080054e4                sprintf
+ .text.__ssputs_r
+                0x08005524       0xb6 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08005524                __ssputs_r
+ *fill*         0x080055da        0x2 
+ .text._svfprintf_r
+                0x080055dc      0x200 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x080055dc                _svfiprintf_r
+                0x080055dc                _svfprintf_r
+ .text._printf_common
+                0x080057dc       0xde c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x080057dc                _printf_common
+ *fill*         0x080058ba        0x2 
+ .text._printf_i
+                0x080058bc      0x24c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x080058bc                _printf_i
+ .text.memchr   0x08005b08       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+                0x08005b08                memchr
+ .text.memcpy   0x08005b24       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+                0x08005b24                memcpy
+ .text.memmove  0x08005b40       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+                0x08005b40                memmove
+ .text._free_r  0x08005b74       0x90 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+                0x08005b74                _free_r
+ .text.sbrk_aligned
+                0x08005c04       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x08005c44       0xe8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x08005c44                _malloc_r
+ .text._realloc_r
+                0x08005d2c       0x5e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                0x08005d2c                _realloc_r
+ *fill*         0x08005d8a        0x2 
+ .text._sbrk_r  0x08005d8c       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+                0x08005d8c                _sbrk_r
+ .text.__malloc_lock
+                0x08005dac        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                0x08005dac                __malloc_lock
+ .text.__malloc_unlock
+                0x08005db8        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                0x08005db8                __malloc_unlock
+ .text._malloc_usable_size_r
+                0x08005dc4       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+                0x08005dc4                _malloc_usable_size_r
+ .text.__retarget_lock_acquire_recursive
+                0x08005dd4        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x08005dd4                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x08005dd6        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x08005dd6                __retarget_lock_release_recursive
+ .text._sbrk    0x08005dd8       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+                0x08005dd8                _sbrk
  *(.glue_7)
- .glue_7        0x08005194        0x0 linker stubs
+ .glue_7        0x08005df4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08005194        0x0 linker stubs
+ .glue_7t       0x08005df4        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08005194        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x08005df4        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x08005194        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x08005194                _init
- .init          0x08005198        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x08005df4        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x08005df4                _init
+ .init          0x08005df8        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x080051a0        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x080051a0                _fini
- .fini          0x080051a4        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x080051ac                . = ALIGN (0x4)
-                0x080051ac                _etext = .
+ .fini          0x08005e00        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x08005e00                _fini
+ .fini          0x08005e04        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x08005e0c                . = ALIGN (0x4)
+                0x08005e0c                _etext = .
 
-.vfp11_veneer   0x080051ac        0x0
- .vfp11_veneer  0x080051ac        0x0 linker stubs
+.vfp11_veneer   0x08005e0c        0x0
+ .vfp11_veneer  0x08005e0c        0x0 linker stubs
 
-.v4_bx          0x080051ac        0x0
- .v4_bx         0x080051ac        0x0 linker stubs
+.v4_bx          0x08005e0c        0x0
+ .v4_bx         0x08005e0c        0x0 linker stubs
 
-.iplt           0x080051ac        0x0
- .iplt          0x080051ac        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08005e0c        0x0
+ .iplt          0x08005e0c        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x080051ac       0x6c
-                0x080051ac                . = ALIGN (0x4)
+.rodata         0x08005e0c       0xb8
+                0x08005e0c                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
+ .rodata.main.str1.4
+                0x08005e0c       0x15 build/main.o
+ *fill*         0x08005e21        0x3 
  .rodata.HAL_RCC_GetSysClockFreq.str1.4
-                0x080051ac       0x11 build/stm32f1xx_hal_rcc.o
+                0x08005e24       0x11 build/stm32f1xx_hal_rcc.o
  .rodata.HAL_RCCEx_GetPeriphCLKFreq.str1.4
-                0x080051bd       0x11 build/stm32f1xx_hal_rcc_ex.o
- *fill*         0x080051bd        0x3 
+                0x08005e35       0x11 build/stm32f1xx_hal_rcc_ex.o
+ *fill*         0x08005e35        0x3 
  .rodata.AHBPrescTable
-                0x080051c0       0x10 build/system_stm32f1xx.o
-                0x080051c0                AHBPrescTable
+                0x08005e38       0x10 build/system_stm32f1xx.o
+                0x08005e38                AHBPrescTable
  .rodata.APBPrescTable
-                0x080051d0        0x8 build/system_stm32f1xx.o
-                0x080051d0                APBPrescTable
+                0x08005e48        0x8 build/system_stm32f1xx.o
+                0x08005e48                APBPrescTable
  .rodata.USBD_FS_ProductStrDescriptor.str1.4
-                0x080051d8        0xe build/usbd_desc.o
- *fill*         0x080051e6        0x2 
+                0x08005e50        0xe build/usbd_desc.o
+ *fill*         0x08005e5e        0x2 
  .rodata.USBD_FS_ManufacturerStrDescriptor.str1.4
-                0x080051e8       0x13 build/usbd_desc.o
- *fill*         0x080051fb        0x1 
+                0x08005e60       0x13 build/usbd_desc.o
+ *fill*         0x08005e73        0x1 
  .rodata.USBD_FS_ConfigStrDescriptor.str1.4
-                0x080051fc        0xb build/usbd_desc.o
- *fill*         0x08005207        0x1 
+                0x08005e74        0xb build/usbd_desc.o
+ *fill*         0x08005e7f        0x1 
  .rodata.USBD_FS_InterfaceStrDescriptor.str1.4
-                0x08005208        0xe build/usbd_desc.o
-                0x08005218                . = ALIGN (0x4)
- *fill*         0x08005216        0x2 
+                0x08005e80        0xe build/usbd_desc.o
+ .rodata._svfprintf_r.str1.1
+                0x08005e8e       0x11 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+ .rodata._printf_i.str1.1
+                0x08005e9f       0x22 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08005ec4                . = ALIGN (0x4)
+ *fill*         0x08005ec1        0x3 
 
-.rel.dyn        0x08005218        0x0
- .rel.iplt      0x08005218        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08005ec4        0x0
+ .rel.iplt      0x08005ec4        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08005218        0x0
-                0x08005218                __exidx_start = .
+.ARM            0x08005ec4        0x0
+                0x08005ec4                __exidx_start = .
  *(.ARM.exidx*)
-                0x08005218                __exidx_end = .
+                0x08005ec4                __exidx_end = .
 
-.preinit_array  0x08005218        0x0
-                0x08005218                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08005ec4        0x0
+                0x08005ec4                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08005218                PROVIDE (__preinit_array_end = .)
+                0x08005ec4                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08005218        0x4
-                0x08005218                PROVIDE (__init_array_start = .)
+.init_array     0x08005ec4        0x4
+                0x08005ec4                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08005218        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0800521c                PROVIDE (__init_array_end = .)
+ .init_array    0x08005ec4        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08005ec8                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0800521c        0x4
+.fini_array     0x08005ec8        0x4
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0800521c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x08005ec8        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end = .)
-                0x08005220                _sidata = LOADADDR (.data)
+                0x08005ecc                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x17c load address 0x08005220
+.data           0x20000000      0x1e0 load address 0x08005ecc
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1486,65 +1692,84 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .data.USBD_CDC_OtherSpeedCfgDesc
                 0x20000138       0x43 build/usbd_cdc.o
                 0x20000138                USBD_CDC_OtherSpeedCfgDesc
-                0x2000017c                . = ALIGN (0x4)
  *fill*         0x2000017b        0x1 
-                0x2000017c                _edata = .
+ .data._impure_ptr
+                0x2000017c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+                0x2000017c                _impure_ptr
+ .data.impure_data
+                0x20000180       0x60 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+                0x200001e0                . = ALIGN (0x4)
+                0x200001e0                _edata = .
 
-.igot.plt       0x2000017c        0x0 load address 0x0800539c
- .igot.plt      0x2000017c        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x2000017c                . = ALIGN (0x4)
+.igot.plt       0x200001e0        0x0 load address 0x080060ac
+ .igot.plt      0x200001e0        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x200001e0                . = ALIGN (0x4)
 
-.bss            0x2000017c     0x1374 load address 0x0800539c
-                0x2000017c                _sbss = .
-                0x2000017c                __bss_start__ = _sbss
+.bss            0x200001e0     0x1388 load address 0x080060ac
+                0x200001e0                _sbss = .
+                0x200001e0                __bss_start__ = _sbss
  *(.bss)
- .bss           0x2000017c       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .bss           0x200001e0       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.bss*)
- .bss.hadc1     0x20000198       0x30 build/main.o
-                0x20000198                hadc1
- .bss.uwTick    0x200001c8        0x4 build/stm32f1xx_hal.o
-                0x200001c8                uwTick
+ .bss.hadc1     0x200001fc       0x30 build/main.o
+                0x200001fc                hadc1
+ .bss.uwTick    0x2000022c        0x4 build/stm32f1xx_hal.o
+                0x2000022c                uwTick
  .bss.hUsbDeviceFS
-                0x200001cc      0x2c4 build/usb_device.o
-                0x200001cc                hUsbDeviceFS
+                0x20000230      0x2c4 build/usb_device.o
+                0x20000230                hUsbDeviceFS
  .bss.USBD_StrDesc
-                0x20000490      0x200 build/usbd_desc.o
-                0x20000490                USBD_StrDesc
+                0x200004f4      0x200 build/usbd_desc.o
+                0x200004f4                USBD_StrDesc
  .bss.UserRxBufferFS
-                0x20000690      0x3e8 build/usbd_cdc_if.o
-                0x20000690                UserRxBufferFS
+                0x200006f4      0x3e8 build/usbd_cdc_if.o
+                0x200006f4                UserRxBufferFS
  .bss.UserTxBufferFS
-                0x20000a78      0x3e8 build/usbd_cdc_if.o
-                0x20000a78                UserTxBufferFS
+                0x20000adc      0x3e8 build/usbd_cdc_if.o
+                0x20000adc                UserTxBufferFS
  .bss.hpcd_USB_FS
-                0x20000e60      0x2ec build/usbd_conf.o
-                0x20000e60                hpcd_USB_FS
- .bss.mem.0     0x2000114c      0x220 build/usbd_conf.o
- .bss.cfgidx.0  0x2000136c        0x1 build/usbd_ctlreq.o
- *fill*         0x2000136d        0x3 
+                0x20000ec4      0x2ec build/usbd_conf.o
+                0x20000ec4                hpcd_USB_FS
+ .bss.mem.0     0x200011b0      0x220 build/usbd_conf.o
+ .bss.cfgidx.0  0x200013d0        0x1 build/usbd_ctlreq.o
+ *fill*         0x200013d1        0x3 
  .bss.data_meadian
-                0x20001370       0x10 build/srv_sens_main.o
-                0x20001370                data_meadian
- .bss.hadc      0x20001380       0x30 build/srv_sens_main.o
-                0x20001380                hadc
+                0x200013d4       0x10 build/srv_sens_main.o
+                0x200013d4                data_meadian
+ .bss.hadc      0x200013e4       0x30 build/srv_sens_main.o
+                0x200013e4                hadc
  .bss.sensor_readings
-                0x200013b0      0x140 build/srv_sens_main.o
-                0x200013b0                sensor_readings
+                0x20001414      0x140 build/srv_sens_main.o
+                0x20001414                sensor_readings
+ .bss.__malloc_free_list
+                0x20001554        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x20001554                __malloc_free_list
+ .bss.__malloc_sbrk_start
+                0x20001558        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x20001558                __malloc_sbrk_start
+ .bss.errno     0x2000155c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                0x2000155c                errno
+ .bss.__lock___malloc_recursive_mutex
+                0x20001560        0x1 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                0x20001560                __lock___malloc_recursive_mutex
+ *fill*         0x20001561        0x3 
+ .bss.heap_end.0
+                0x20001564        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
  *(COMMON)
-                0x200014f0                . = ALIGN (0x4)
-                0x200014f0                _ebss = .
-                0x200014f0                __bss_end__ = _ebss
+                0x20001568                . = ALIGN (0x4)
+                0x20001568                _ebss = .
+                0x20001568                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200014f0      0x600 load address 0x0800539c
-                0x200014f0                . = ALIGN (0x8)
-                [!provide]                PROVIDE (end = .)
+                0x20001568      0x600 load address 0x080060ac
+                0x20001568                . = ALIGN (0x8)
+                0x20001568                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
-                0x200016f0                . = (. + _Min_Heap_Size)
- *fill*         0x200014f0      0x200 
-                0x20001af0                . = (. + _Min_Stack_Size)
- *fill*         0x200016f0      0x400 
-                0x20001af0                . = ALIGN (0x8)
+                0x20001768                . = (. + _Min_Heap_Size)
+ *fill*         0x20001568      0x200 
+                0x20001b68                . = (. + _Min_Stack_Size)
+ *fill*         0x20001768      0x400 
+                0x20001b68                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1605,102 +1830,138 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .ARM.attributes
                 0x00000428       0x21 build/startup_stm32f103xb.o
  .ARM.attributes
-                0x00000449       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
+                0x00000449       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000476       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
+                0x00000476       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x000004a3       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+                0x000004a3       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x000004c0       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                0x000004d0       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
  .ARM.attributes
-                0x000004dd       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+                0x000004fd       0x17 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-strlen.o)
  .ARM.attributes
-                0x000004fa       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x00000514       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
  .ARM.attributes
-                0x00000517       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                0x00000541       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x00000534       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000056e       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000059b       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000005c8       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x000005f5       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000622       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000064f       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000067c       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x000006a9       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000006d6       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x00000703       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000730       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x0000075d       0x2d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x0000078a       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000007a7       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x000007c4       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x000007e1       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x000007fe       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x0000081b       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
+ .ARM.attributes
+                0x00000838       0x1d c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(build/Initial_PRJ.elf elf32-littlearm)
 LOAD linker stubs
 LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
 LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x115cf
- .debug_info    0x00000000      0xb11 build/main.o
- .debug_info    0x00000b11      0x721 build/stm32f1xx_it.o
- .debug_info    0x00001232      0x8ed build/stm32f1xx_hal_msp.o
- .debug_info    0x00001b1f      0x855 build/stm32f1xx_hal.o
- .debug_info    0x00002374      0xaec build/stm32f1xx_hal_rcc.o
- .debug_info    0x00002e60      0x479 build/stm32f1xx_hal_rcc_ex.o
- .debug_info    0x000032d9      0x6d7 build/stm32f1xx_hal_gpio.o
- .debug_info    0x000039b0      0xe2d build/stm32f1xx_hal_cortex.o
- .debug_info    0x000047dd      0x26e build/system_stm32f1xx.o
- .debug_info    0x00004a4b      0x741 build/usb_device.o
- .debug_info    0x0000518c      0x62f build/usbd_desc.o
- .debug_info    0x000057bb      0x94d build/usbd_cdc_if.o
- .debug_info    0x00006108     0x1d72 build/usbd_conf.o
- .debug_info    0x00007e7a     0x1c82 build/stm32f1xx_hal_pcd.o
- .debug_info    0x00009afc      0x7c7 build/stm32f1xx_hal_pcd_ex.o
- .debug_info    0x0000a2c3     0x1d8c build/stm32f1xx_ll_usb.o
- .debug_info    0x0000c04f     0x1025 build/stm32f1xx_hal_adc.o
- .debug_info    0x0000d074      0xe5f build/usbd_core.o
- .debug_info    0x0000ded3     0x1135 build/usbd_ctlreq.o
- .debug_info    0x0000f008      0x883 build/usbd_ioreq.o
- .debug_info    0x0000f88b      0x81f build/srv_sens_main.o
- .debug_info    0x000100aa     0x1503 build/usbd_cdc.o
- .debug_info    0x000115ad       0x22 build/startup_stm32f103xb.o
+.debug_info     0x00000000    0x1180f
+ .debug_info    0x00000000      0xc78 build/main.o
+ .debug_info    0x00000c78      0x721 build/stm32f1xx_it.o
+ .debug_info    0x00001399      0x8ed build/stm32f1xx_hal_msp.o
+ .debug_info    0x00001c86      0x855 build/stm32f1xx_hal.o
+ .debug_info    0x000024db      0xaec build/stm32f1xx_hal_rcc.o
+ .debug_info    0x00002fc7      0x479 build/stm32f1xx_hal_rcc_ex.o
+ .debug_info    0x00003440      0x6d7 build/stm32f1xx_hal_gpio.o
+ .debug_info    0x00003b17      0xe2d build/stm32f1xx_hal_cortex.o
+ .debug_info    0x00004944      0x26e build/system_stm32f1xx.o
+ .debug_info    0x00004bb2      0x741 build/usb_device.o
+ .debug_info    0x000052f3      0x62f build/usbd_desc.o
+ .debug_info    0x00005922      0x94d build/usbd_cdc_if.o
+ .debug_info    0x0000626f     0x1d72 build/usbd_conf.o
+ .debug_info    0x00007fe1     0x1c82 build/stm32f1xx_hal_pcd.o
+ .debug_info    0x00009c63      0x7c7 build/stm32f1xx_hal_pcd_ex.o
+ .debug_info    0x0000a42a     0x1d8c build/stm32f1xx_ll_usb.o
+ .debug_info    0x0000c1b6     0x1025 build/stm32f1xx_hal_adc.o
+ .debug_info    0x0000d1db      0xe5f build/usbd_core.o
+ .debug_info    0x0000e03a     0x1135 build/usbd_ctlreq.o
+ .debug_info    0x0000f16f      0x883 build/usbd_ioreq.o
+ .debug_info    0x0000f9f2      0x8f8 build/srv_sens_main.o
+ .debug_info    0x000102ea     0x1503 build/usbd_cdc.o
+ .debug_info    0x000117ed       0x22 build/startup_stm32f103xb.o
 
-.debug_abbrev   0x00000000     0x305f
- .debug_abbrev  0x00000000      0x25d build/main.o
- .debug_abbrev  0x0000025d      0x168 build/stm32f1xx_it.o
- .debug_abbrev  0x000003c5      0x1a6 build/stm32f1xx_hal_msp.o
- .debug_abbrev  0x0000056b      0x1f7 build/stm32f1xx_hal.o
- .debug_abbrev  0x00000762      0x29a build/stm32f1xx_hal_rcc.o
- .debug_abbrev  0x000009fc      0x1d5 build/stm32f1xx_hal_rcc_ex.o
- .debug_abbrev  0x00000bd1      0x222 build/stm32f1xx_hal_gpio.o
- .debug_abbrev  0x00000df3      0x359 build/stm32f1xx_hal_cortex.o
- .debug_abbrev  0x0000114c      0x140 build/system_stm32f1xx.o
- .debug_abbrev  0x0000128c      0x181 build/usb_device.o
- .debug_abbrev  0x0000140d      0x21f build/usbd_desc.o
- .debug_abbrev  0x0000162c      0x26c build/usbd_cdc_if.o
- .debug_abbrev  0x00001898      0x2f6 build/usbd_conf.o
- .debug_abbrev  0x00001b8e      0x2ea build/stm32f1xx_hal_pcd.o
- .debug_abbrev  0x00001e78      0x184 build/stm32f1xx_hal_pcd_ex.o
- .debug_abbrev  0x00001ffc      0x25b build/stm32f1xx_ll_usb.o
- .debug_abbrev  0x00002257      0x239 build/stm32f1xx_hal_adc.o
- .debug_abbrev  0x00002490      0x27a build/usbd_core.o
- .debug_abbrev  0x0000270a      0x2cd build/usbd_ctlreq.o
- .debug_abbrev  0x000029d7      0x16f build/usbd_ioreq.o
- .debug_abbrev  0x00002b46      0x1fe build/srv_sens_main.o
- .debug_abbrev  0x00002d44      0x309 build/usbd_cdc.o
- .debug_abbrev  0x0000304d       0x12 build/startup_stm32f103xb.o
+.debug_abbrev   0x00000000     0x3093
+ .debug_abbrev  0x00000000      0x275 build/main.o
+ .debug_abbrev  0x00000275      0x168 build/stm32f1xx_it.o
+ .debug_abbrev  0x000003dd      0x1a6 build/stm32f1xx_hal_msp.o
+ .debug_abbrev  0x00000583      0x1f7 build/stm32f1xx_hal.o
+ .debug_abbrev  0x0000077a      0x29a build/stm32f1xx_hal_rcc.o
+ .debug_abbrev  0x00000a14      0x1d5 build/stm32f1xx_hal_rcc_ex.o
+ .debug_abbrev  0x00000be9      0x222 build/stm32f1xx_hal_gpio.o
+ .debug_abbrev  0x00000e0b      0x359 build/stm32f1xx_hal_cortex.o
+ .debug_abbrev  0x00001164      0x140 build/system_stm32f1xx.o
+ .debug_abbrev  0x000012a4      0x181 build/usb_device.o
+ .debug_abbrev  0x00001425      0x21f build/usbd_desc.o
+ .debug_abbrev  0x00001644      0x26c build/usbd_cdc_if.o
+ .debug_abbrev  0x000018b0      0x2f6 build/usbd_conf.o
+ .debug_abbrev  0x00001ba6      0x2ea build/stm32f1xx_hal_pcd.o
+ .debug_abbrev  0x00001e90      0x184 build/stm32f1xx_hal_pcd_ex.o
+ .debug_abbrev  0x00002014      0x25b build/stm32f1xx_ll_usb.o
+ .debug_abbrev  0x0000226f      0x239 build/stm32f1xx_hal_adc.o
+ .debug_abbrev  0x000024a8      0x27a build/usbd_core.o
+ .debug_abbrev  0x00002722      0x2cd build/usbd_ctlreq.o
+ .debug_abbrev  0x000029ef      0x16f build/usbd_ioreq.o
+ .debug_abbrev  0x00002b5e      0x21a build/srv_sens_main.o
+ .debug_abbrev  0x00002d78      0x309 build/usbd_cdc.o
+ .debug_abbrev  0x00003081       0x12 build/startup_stm32f103xb.o
 
-.debug_loc      0x00000000     0xa662
- .debug_loc     0x00000000       0xd6 build/main.o
- .debug_loc     0x000000d6       0x40 build/stm32f1xx_it.o
- .debug_loc     0x00000116      0x129 build/stm32f1xx_hal_msp.o
- .debug_loc     0x0000023f      0x1e1 build/stm32f1xx_hal.o
- .debug_loc     0x00000420      0x7ee build/stm32f1xx_hal_rcc.o
- .debug_loc     0x00000c0e      0x444 build/stm32f1xx_hal_rcc_ex.o
- .debug_loc     0x00001052      0x551 build/stm32f1xx_hal_gpio.o
- .debug_loc     0x000015a3      0x77f build/stm32f1xx_hal_cortex.o
- .debug_loc     0x00001d22       0xff build/system_stm32f1xx.o
- .debug_loc     0x00001e21       0x20 build/usb_device.o
- .debug_loc     0x00001e41      0x47b build/usbd_desc.o
- .debug_loc     0x000022bc      0x197 build/usbd_cdc_if.o
- .debug_loc     0x00002453      0xead build/usbd_conf.o
- .debug_loc     0x00003300     0x17ab build/stm32f1xx_hal_pcd.o
- .debug_loc     0x00004aab      0x11a build/stm32f1xx_hal_pcd_ex.o
- .debug_loc     0x00004bc5     0x1d1e build/stm32f1xx_ll_usb.o
- .debug_loc     0x000068e3      0xdf1 build/stm32f1xx_hal_adc.o
- .debug_loc     0x000076d4      0xaf6 build/usbd_core.o
- .debug_loc     0x000081ca     0x1631 build/usbd_ctlreq.o
- .debug_loc     0x000097fb      0x364 build/usbd_ioreq.o
- .debug_loc     0x00009b5f       0xf4 build/srv_sens_main.o
- .debug_loc     0x00009c53      0xa0f build/usbd_cdc.o
+.debug_loc      0x00000000     0xa684
+ .debug_loc     0x00000000       0xe3 build/main.o
+ .debug_loc     0x000000e3       0x40 build/stm32f1xx_it.o
+ .debug_loc     0x00000123      0x129 build/stm32f1xx_hal_msp.o
+ .debug_loc     0x0000024c      0x1e1 build/stm32f1xx_hal.o
+ .debug_loc     0x0000042d      0x7ee build/stm32f1xx_hal_rcc.o
+ .debug_loc     0x00000c1b      0x444 build/stm32f1xx_hal_rcc_ex.o
+ .debug_loc     0x0000105f      0x551 build/stm32f1xx_hal_gpio.o
+ .debug_loc     0x000015b0      0x77f build/stm32f1xx_hal_cortex.o
+ .debug_loc     0x00001d2f       0xff build/system_stm32f1xx.o
+ .debug_loc     0x00001e2e       0x20 build/usb_device.o
+ .debug_loc     0x00001e4e      0x47b build/usbd_desc.o
+ .debug_loc     0x000022c9      0x197 build/usbd_cdc_if.o
+ .debug_loc     0x00002460      0xead build/usbd_conf.o
+ .debug_loc     0x0000330d     0x17ab build/stm32f1xx_hal_pcd.o
+ .debug_loc     0x00004ab8      0x11a build/stm32f1xx_hal_pcd_ex.o
+ .debug_loc     0x00004bd2     0x1d1e build/stm32f1xx_ll_usb.o
+ .debug_loc     0x000068f0      0xdf1 build/stm32f1xx_hal_adc.o
+ .debug_loc     0x000076e1      0xaf6 build/usbd_core.o
+ .debug_loc     0x000081d7     0x1631 build/usbd_ctlreq.o
+ .debug_loc     0x00009808      0x364 build/usbd_ioreq.o
+ .debug_loc     0x00009b6c      0x109 build/srv_sens_main.o
+ .debug_loc     0x00009c75      0xa0f build/usbd_cdc.o
 
-.debug_aranges  0x00000000      0xb28
+.debug_aranges  0x00000000      0xb30
  .debug_aranges
                 0x00000000       0x40 build/main.o
  .debug_aranges
@@ -1742,13 +2003,13 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .debug_aranges
                 0x000009f0       0x50 build/usbd_ioreq.o
  .debug_aranges
-                0x00000a40       0x30 build/srv_sens_main.o
+                0x00000a40       0x38 build/srv_sens_main.o
  .debug_aranges
-                0x00000a70       0x90 build/usbd_cdc.o
+                0x00000a78       0x90 build/usbd_cdc.o
  .debug_aranges
-                0x00000b00       0x28 build/startup_stm32f103xb.o
+                0x00000b08       0x28 build/startup_stm32f103xb.o
 
-.debug_ranges   0x00000000      0xdf8
+.debug_ranges   0x00000000      0xe00
  .debug_ranges  0x00000000       0x30 build/main.o
  .debug_ranges  0x00000030       0x58 build/stm32f1xx_it.o
  .debug_ranges  0x00000088       0x20 build/stm32f1xx_hal_msp.o
@@ -1769,81 +2030,81 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .debug_ranges  0x00000bd8       0xa8 build/usbd_core.o
  .debug_ranges  0x00000c80       0x78 build/usbd_ctlreq.o
  .debug_ranges  0x00000cf8       0x40 build/usbd_ioreq.o
- .debug_ranges  0x00000d38       0x20 build/srv_sens_main.o
- .debug_ranges  0x00000d58       0x80 build/usbd_cdc.o
- .debug_ranges  0x00000dd8       0x20 build/startup_stm32f103xb.o
+ .debug_ranges  0x00000d38       0x28 build/srv_sens_main.o
+ .debug_ranges  0x00000d60       0x80 build/usbd_cdc.o
+ .debug_ranges  0x00000de0       0x20 build/startup_stm32f103xb.o
 
-.debug_line     0x00000000     0xa28e
- .debug_line    0x00000000      0x447 build/main.o
- .debug_line    0x00000447      0x2e2 build/stm32f1xx_it.o
- .debug_line    0x00000729      0x284 build/stm32f1xx_hal_msp.o
- .debug_line    0x000009ad      0x526 build/stm32f1xx_hal.o
- .debug_line    0x00000ed3      0xc24 build/stm32f1xx_hal_rcc.o
- .debug_line    0x00001af7      0x496 build/stm32f1xx_hal_rcc_ex.o
- .debug_line    0x00001f8d      0x5db build/stm32f1xx_hal_gpio.o
- .debug_line    0x00002568      0x631 build/stm32f1xx_hal_cortex.o
- .debug_line    0x00002b99      0x23e build/system_stm32f1xx.o
- .debug_line    0x00002dd7      0x221 build/usb_device.o
- .debug_line    0x00002ff8      0x371 build/usbd_desc.o
- .debug_line    0x00003369      0x25a build/usbd_cdc_if.o
- .debug_line    0x000035c3      0x7ad build/usbd_conf.o
- .debug_line    0x00003d70     0x18b5 build/stm32f1xx_hal_pcd.o
- .debug_line    0x00005625      0x28b build/stm32f1xx_hal_pcd_ex.o
- .debug_line    0x000058b0     0x1a94 build/stm32f1xx_ll_usb.o
- .debug_line    0x00007344      0xee4 build/stm32f1xx_hal_adc.o
- .debug_line    0x00008228      0x725 build/usbd_core.o
- .debug_line    0x0000894d      0xb0d build/usbd_ctlreq.o
- .debug_line    0x0000945a      0x29c build/usbd_ioreq.o
- .debug_line    0x000096f6      0x370 build/srv_sens_main.o
- .debug_line    0x00009a66      0x7b3 build/usbd_cdc.o
- .debug_line    0x0000a219       0x75 build/startup_stm32f103xb.o
+.debug_line     0x00000000     0xa39d
+ .debug_line    0x00000000      0x4fa build/main.o
+ .debug_line    0x000004fa      0x2e2 build/stm32f1xx_it.o
+ .debug_line    0x000007dc      0x284 build/stm32f1xx_hal_msp.o
+ .debug_line    0x00000a60      0x526 build/stm32f1xx_hal.o
+ .debug_line    0x00000f86      0xc24 build/stm32f1xx_hal_rcc.o
+ .debug_line    0x00001baa      0x496 build/stm32f1xx_hal_rcc_ex.o
+ .debug_line    0x00002040      0x5db build/stm32f1xx_hal_gpio.o
+ .debug_line    0x0000261b      0x631 build/stm32f1xx_hal_cortex.o
+ .debug_line    0x00002c4c      0x23e build/system_stm32f1xx.o
+ .debug_line    0x00002e8a      0x221 build/usb_device.o
+ .debug_line    0x000030ab      0x371 build/usbd_desc.o
+ .debug_line    0x0000341c      0x25a build/usbd_cdc_if.o
+ .debug_line    0x00003676      0x7ad build/usbd_conf.o
+ .debug_line    0x00003e23     0x18b5 build/stm32f1xx_hal_pcd.o
+ .debug_line    0x000056d8      0x28b build/stm32f1xx_hal_pcd_ex.o
+ .debug_line    0x00005963     0x1a94 build/stm32f1xx_ll_usb.o
+ .debug_line    0x000073f7      0xee4 build/stm32f1xx_hal_adc.o
+ .debug_line    0x000082db      0x725 build/usbd_core.o
+ .debug_line    0x00008a00      0xb0d build/usbd_ctlreq.o
+ .debug_line    0x0000950d      0x29c build/usbd_ioreq.o
+ .debug_line    0x000097a9      0x3cc build/srv_sens_main.o
+ .debug_line    0x00009b75      0x7b3 build/usbd_cdc.o
+ .debug_line    0x0000a328       0x75 build/startup_stm32f103xb.o
 
-.debug_str      0x00000000     0x32ff
- .debug_str     0x00000000      0x72a build/main.o
-                                0x7ce (size before relaxing)
- .debug_str     0x0000072a      0x3e7 build/stm32f1xx_it.o
+.debug_str      0x00000000     0x335e
+ .debug_str     0x00000000      0x7b9 build/main.o
+                                0x868 (size before relaxing)
+ .debug_str     0x000007b9      0x3e8 build/stm32f1xx_it.o
                                 0x5c3 (size before relaxing)
- .debug_str     0x00000b11       0xcf build/stm32f1xx_hal_msp.o
+ .debug_str     0x00000ba1       0xcf build/stm32f1xx_hal_msp.o
                                 0x5a1 (size before relaxing)
- .debug_str     0x00000be0      0x605 build/stm32f1xx_hal.o
+ .debug_str     0x00000c70      0x605 build/stm32f1xx_hal.o
                                 0x806 (size before relaxing)
- .debug_str     0x000011e5      0x1fe build/stm32f1xx_hal_rcc.o
+ .debug_str     0x00001275      0x1fe build/stm32f1xx_hal_rcc.o
                                 0x60d (size before relaxing)
- .debug_str     0x000013e3       0x9c build/stm32f1xx_hal_rcc_ex.o
+ .debug_str     0x00001473       0x9c build/stm32f1xx_hal_rcc_ex.o
                                 0x3b5 (size before relaxing)
- .debug_str     0x0000147f      0x145 build/stm32f1xx_hal_gpio.o
+ .debug_str     0x0000150f      0x145 build/stm32f1xx_hal_gpio.o
                                 0x3e2 (size before relaxing)
- .debug_str     0x000015c4      0x39a build/stm32f1xx_hal_cortex.o
+ .debug_str     0x00001654      0x39a build/stm32f1xx_hal_cortex.o
                                 0x8b5 (size before relaxing)
- .debug_str     0x0000195e       0x4f build/system_stm32f1xx.o
+ .debug_str     0x000019ee       0x4f build/system_stm32f1xx.o
                                 0x236 (size before relaxing)
- .debug_str     0x000019ad      0x3d4 build/usb_device.o
+ .debug_str     0x00001a3d      0x3d4 build/usb_device.o
                                 0x628 (size before relaxing)
- .debug_str     0x00001d81      0x181 build/usbd_desc.o
+ .debug_str     0x00001e11      0x181 build/usbd_desc.o
                                 0x433 (size before relaxing)
- .debug_str     0x00001f02      0x135 build/usbd_cdc_if.o
+ .debug_str     0x00001f92      0x125 build/usbd_cdc_if.o
                                 0x6ef (size before relaxing)
- .debug_str     0x00002037      0x4eb build/usbd_conf.o
+ .debug_str     0x000020b7      0x4eb build/usbd_conf.o
                                0x117e (size before relaxing)
- .debug_str     0x00002522      0x2fb build/stm32f1xx_hal_pcd.o
+ .debug_str     0x000025a2      0x2fb build/stm32f1xx_hal_pcd.o
                                 0xab0 (size before relaxing)
- .debug_str     0x0000281d      0x159 build/stm32f1xx_hal_pcd_ex.o
+ .debug_str     0x0000289d      0x159 build/stm32f1xx_hal_pcd_ex.o
                                 0x6aa (size before relaxing)
- .debug_str     0x00002976      0x136 build/stm32f1xx_ll_usb.o
+ .debug_str     0x000029f6      0x136 build/stm32f1xx_ll_usb.o
                                 0x6dd (size before relaxing)
- .debug_str     0x00002aac      0x31c build/stm32f1xx_hal_adc.o
+ .debug_str     0x00002b2c      0x31c build/stm32f1xx_hal_adc.o
                                 0x8b5 (size before relaxing)
- .debug_str     0x00002dc8      0x13e build/usbd_core.o
+ .debug_str     0x00002e48      0x13e build/usbd_core.o
                                 0x813 (size before relaxing)
- .debug_str     0x00002f06       0xe2 build/usbd_ctlreq.o
+ .debug_str     0x00002f86       0xe2 build/usbd_ctlreq.o
                                 0x72d (size before relaxing)
- .debug_str     0x00002fe8       0x60 build/usbd_ioreq.o
+ .debug_str     0x00003068       0x60 build/usbd_ioreq.o
                                 0x65a (size before relaxing)
- .debug_str     0x00003048      0x104 build/srv_sens_main.o
-                                0x5fa (size before relaxing)
- .debug_str     0x0000314c      0x18f build/usbd_cdc.o
+ .debug_str     0x000030c8       0xe3 build/srv_sens_main.o
+                                0x66b (size before relaxing)
+ .debug_str     0x000031ab      0x18f build/usbd_cdc.o
                                 0xbe8 (size before relaxing)
- .debug_str     0x000032db       0x24 build/startup_stm32f103xb.o
+ .debug_str     0x0000333a       0x24 build/startup_stm32f103xb.o
                                  0x51 (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -1871,7 +2132,7 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .comment       0x00000049       0x4a build/srv_sens_main.o
  .comment       0x00000049       0x4a build/usbd_cdc.o
 
-.debug_frame    0x00000000     0x1bdc
+.debug_frame    0x00000000     0x206c
  .debug_frame   0x00000000       0x90 build/main.o
  .debug_frame   0x00000090       0xc0 build/stm32f1xx_it.o
  .debug_frame   0x00000150       0x60 build/stm32f1xx_hal_msp.o
@@ -1892,15 +2153,31 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .debug_frame   0x0000145c      0x1c4 build/usbd_core.o
  .debug_frame   0x00001620      0x178 build/usbd_ctlreq.o
  .debug_frame   0x00001798       0xb8 build/usbd_ioreq.o
- .debug_frame   0x00001850       0x5c build/srv_sens_main.o
- .debug_frame   0x000018ac      0x160 build/usbd_cdc.o
- .debug_frame   0x00001a0c       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
- .debug_frame   0x00001a38       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
- .debug_frame   0x00001a58       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
- .debug_frame   0x00001a88       0xac c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x00001b34       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x00001b58       0x4c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x00001ba4       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00001850       0x6c build/srv_sens_main.o
+ .debug_frame   0x000018bc      0x160 build/usbd_cdc.o
+ .debug_frame   0x00001a1c       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00001a48       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00001a68       0x6c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x00001ad4       0x90 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x00001b64       0x60 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00001bc4       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00001bec       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00001c14       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x00001c3c       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00001c74       0x4c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00001cc0       0x3c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00001cfc       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00001d28       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00001d58       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00001d78       0x5c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00001dd4       0xb0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x00001e84       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+ .debug_frame   0x00001ea4       0xac c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00001f50       0x50 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x00001fa0       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x00001fc4       0x4c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00002010       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00002048       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
 
 Cross Reference Table
 
@@ -1924,6 +2201,7 @@ BusFault_Handler                                  build/stm32f1xx_it.o
 CAN1_RX1_IRQHandler                               build/startup_stm32f103xb.o
 CAN1_SCE_IRQHandler                               build/startup_stm32f103xb.o
 CDC_Transmit_FS                                   build/usbd_cdc_if.o
+                                                  build/main.o
 DMA1_Channel1_IRQHandler                          build/startup_stm32f103xb.o
 DMA1_Channel2_IRQHandler                          build/startup_stm32f103xb.o
 DMA1_Channel3_IRQHandler                          build/startup_stm32f103xb.o
@@ -2430,21 +2708,31 @@ __addsf3                                          c:/program files (x86)/gnu arm
 __aeabi_d2f                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
                                                   build/srv_sens_main.o
 __aeabi_dadd                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
-__aeabi_dmul                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+__aeabi_ddiv                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                                                  build/srv_sens_main.o
+__aeabi_dmul                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
                                                   build/srv_sens_main.o
 __aeabi_drsub                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
 __aeabi_dsub                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                                                  build/srv_sens_main.o
 __aeabi_f2d                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                                                  build/srv_sens_main.o
+__aeabi_f2iz                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
                                                   build/srv_sens_main.o
 __aeabi_fadd                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
                                                   build/srv_sens_main.o
 __aeabi_fdiv                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
                                                   build/srv_sens_main.o
 __aeabi_fmul                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+                                                  build/srv_sens_main.o
 __aeabi_frsub                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
 __aeabi_fsub                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                                                  build/srv_sens_main.o
 __aeabi_i2d                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
 __aeabi_i2f                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                                                  build/srv_sens_main.o
 __aeabi_l2d                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
 __aeabi_l2f                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
 __aeabi_ui2d                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
@@ -2456,9 +2744,11 @@ __bss_end__                                       c:/program files (x86)/gnu arm
 __bss_start__                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 __call_exitprocs                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o)
 __deregister_frame_info                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+__divdf3                                          c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
 __divsf3                                          c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
 __dso_handle                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 __extendsfdf2                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+__fixsfsi                                         c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixsfsi.o)
 __floatdidf                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
 __floatdisf                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
 __floatsidf                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
@@ -2473,14 +2763,49 @@ __libc_fini_array                                 c:/program files (x86)/gnu arm
 __libc_init_array                                 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
                                                   build/startup_stm32f103xb.o
                                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
-__muldf3                                          c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+__lock___arc4random_mutex                         c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__lock___at_quick_exit_mutex                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__lock___atexit_recursive_mutex                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__lock___dd_hash_mutex                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__lock___env_recursive_mutex                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__lock___malloc_recursive_mutex                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+__lock___sfp_recursive_mutex                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__lock___sinit_recursive_mutex                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__lock___tz_mutex                                 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__malloc_free_list                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+__malloc_lock                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+__malloc_sbrk_start                               c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+__malloc_unlock                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+__muldf3                                          c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
 __mulsf3                                          c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
 __preinit_array_end                               c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
 __preinit_array_start                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
 __register_frame_info                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+__retarget_lock_acquire                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__retarget_lock_acquire_recursive                 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+__retarget_lock_close                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__retarget_lock_close_recursive                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__retarget_lock_init                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__retarget_lock_init_recursive                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__retarget_lock_release                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__retarget_lock_release_recursive                 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-mlock.o)
+__retarget_lock_try_acquire                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
+__retarget_lock_try_acquire_recursive             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-lock.o)
 __sf_fake_stderr                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
 __sf_fake_stdin                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
 __sf_fake_stdout                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+__ssprint_r                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+__ssputs_r                                        c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
 __stack                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 __subdf3                                          c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
 __subsf3                                          c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
@@ -2491,22 +2816,55 @@ _estack                                           build/startup_stm32f103xb.o
 _exit                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(_exit.o)
                                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o)
 _fini                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+_free_r                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-freer.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
 _global_impure_ptr                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
                                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o)
 _impure_ptr                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-impure.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
 _init                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
                                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-init.o)
 _mainCRTStartup                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+_malloc_r                                         c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+_malloc_usable_size_r                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-msizer.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+_printf_common                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+_printf_float                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+_printf_i                                         c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+_realloc_r                                        c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+_reclaim_reent                                    c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+_sbrk                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+_sbrk_r                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-mallocr.o)
 _sbss                                             build/startup_stm32f103xb.o
 _sdata                                            build/startup_stm32f103xb.o
 _sidata                                           build/startup_stm32f103xb.o
+_siprintf_r                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+_sprintf_r                                        c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
 _stack_init                                       c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 _start                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+_svfiprintf_r                                     c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+_svfprintf_r                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
 atexit                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+cleanup_glue                                      c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
 data_meadian                                      build/srv_sens_main.o
+end                                               c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libnosys.a(sbrk.o)
+errno                                             c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-reent.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sbrkr.o)
 exit                                              c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-exit.o)
                                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 g_pfnVectors                                      build/startup_stm32f103xb.o
+get_sensor_data                                   build/srv_sens_main.o
+                                                  build/main.o
 hUsbDeviceFS                                      build/usb_device.o
                                                   build/usbd_cdc_if.o
 hadc                                              build/srv_sens_main.o
@@ -2517,6 +2875,14 @@ hpcd_USB_FS                                       build/usbd_conf.o
 main                                              build/main.o
                                                   build/startup_stm32f103xb.o
                                                   c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+memchr                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memchr-stub.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+memcpy                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memcpy-stub.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-reallocr.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
+memmove                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memmove.o)
+                                                  c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-nano-svfprintf.o)
 memset                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-memset.o)
                                                   build/stm32f1xx_hal_adc_ex.o
                                                   build/main.o
@@ -2525,10 +2891,16 @@ pFlash                                            build/stm32f1xx_hal_flash.o
                                                   build/stm32f1xx_hal_flash_ex.o
 sensor_readings                                   build/srv_sens_main.o
 set_adc                                           build/srv_sens_main.o
+                                                  build/main.o
+siprintf                                          c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
 software_init_hook                                c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
+sprintf                                           c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-sprintf.o)
+                                                  build/main.o
 srv_sens_init                                     build/srv_sens_main.o
                                                   build/main.o
 srv_sens_main                                     build/srv_sens_main.o
+                                                  build/main.o
+strlen                                            c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(lib_a-strlen.o)
                                                   build/main.o
 uwTick                                            build/stm32f1xx_hal.o
 uwTickFreq                                        build/stm32f1xx_hal.o

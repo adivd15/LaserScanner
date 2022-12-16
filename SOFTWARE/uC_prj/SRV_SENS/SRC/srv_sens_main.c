@@ -54,22 +54,35 @@ void srv_sens_init(void)
 
 }
 /**
+ * @brief Get the sensor data object
+ * 
+ * @return sensor_data_t 
+ */
+sensor_data_t get_sensor_data(void){
+    return data_meadian;
+}
+/**
  * @brief main function for srv_sens
  *
 */
 void srv_sens_main(void)
 {
+    uint16_t raw;
     float sensor_data_sum;
     for(int i = 0; i < 20; i++)
     {
         //read sensor data
         HAL_ADC_Start(&hadc);
         HAL_ADC_PollForConversion(&hadc, 100);
-        sensor_readings[0].raw_sensor_voltage = HAL_ADC_GetValue(&hadc);
+        raw = HAL_ADC_GetValue(&hadc);
         HAL_ADC_Stop(&hadc);
-        sensor_readings[0].raw_sensor_voltage = sensor_readings[0].raw_sensor_voltage*(3.3/4096);
+        sensor_readings[i].raw_sensor_voltage =(float)raw*(3.3/4096);
         //convert raw_sensor_voltage to sensor_data
-
+        /*
+            using curve expert we know that: raw_sensor_voltage = 7.747/(1+sensor_data/4.271)
+            so we can calculate sensor_data using the following formula: sensor_data = 33.087/raw_sensor_voltage-7.747
+        */
+        sensor_readings[i].sensor_data = 33.087/sensor_readings[i].raw_sensor_voltage-7.747;
         //get medium value from sensor_data
         sensor_data_sum += sensor_readings[i].sensor_data;
         //wait 5ms
@@ -77,4 +90,6 @@ void srv_sens_main(void)
     }
     //calculate medium value
     data_meadian.sensor_data = sensor_data_sum/20;
+    data_meadian.sensor_decimal = (int)(data_meadian.sensor_data);
+    data_meadian.sensor_unit = (int)((data_meadian.sensor_data - data_meadian.sensor_decimal)*1000);
 }

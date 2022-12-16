@@ -21,4 +21,10 @@
  * @param hadc1
 */
 void set_adc(ADC_HandleTypeDef *hadc1);
+/**
+ * @brief Get the sensor data object
+ * 
+ * @return sensor_data_t 
+ */
+sensor_data_t get_sensor_data(void);
 #endif

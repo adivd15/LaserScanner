@@ -23,7 +23,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "srv_sens_swcpma.h"
-
+#include "srv_sens_def.h"
+#include "srv_sens_api.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -67,8 +68,6 @@ static void MX_ADC1_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-  uint16_t sensor_reading;
-  char msg[30];
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -93,6 +92,9 @@ int main(void)
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
   srv_sens_init();
+  set_adc(&hadc1);
+  sensor_data_t sensor_reding;
+  uint8_t msg[40];
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,6 +103,9 @@ int main(void)
   {
     /* USER CODE END WHILE */
     srv_sens_main();
+    sensor_reding = get_sensor_data();
+    sprintf(msg, "Distance: %d.%d cm\r\n", sensor_reding.sensor_decimal, sensor_reding.sensor_unit);
+    CDC_Transmit_FS(msg, strlen(msg));
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

@@ -18,15 +18,33 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <SRV_MotorControl_swcpma.h>
+#include <math.h>
+
+#include <srv_sens_api.h>
+#include <srv_sens_swcpma.h>
+#include <srv_sens_def.h>
+#include <srv_MotorControl_main.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+typedef struct poin_coord{
+    float x;
+    float y;
+    float z;
 
+    int x_dec;
+    int y_dec;
+    int z_dec;
+
+    int x_int;
+    int y_int;
+    int z_int;
+} poin_coord;
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -39,6 +57,7 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+ADC_HandleTypeDef hadc1;
 
 /* USER CODE BEGIN PV */
 
@@ -47,6 +66,7 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
+static void MX_ADC1_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -63,7 +83,9 @@ static void MX_GPIO_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+  uint8_t msg[50];
+  poin_coord point;
+  float alpha = 0;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -84,18 +106,66 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_ADC1_Init();
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-  uint8_t success = motorControl_init();
-  motorControl_main();
+  srv_sens_init();
+  set_adc(&hadc1);
+  motorControl_init();
+  sensor_data_t sens_readings;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    
     /* USER CODE END WHILE */
+    float angle_rad = 0;
+    HAL_Delay(4000);
+    CDC_Transmit_FS("Waiting a litlle bit to start\r\n",32);
+    point.z = 0;
+    for(int i = 0; i < 260; i++){
+      for(int i = 0; i < 40; i++){
+        srv_sens_main();
+        sens_readings = get_sensor_data();
+        point.x = (19.0-sens_readings.sensor_data)*sin(alpha);
+        point.y = (19.0-sens_readings.sensor_data)*cos(alpha);
 
+        point.x_int = (int)point.x;
+        point.y_int = (int)point.y;
+        point.z_int = (int)point.z;
+
+        if(point.x<0){
+          point.x_dec = -1*(int)((point.x - point.x_int)*1000);
+        }
+        else{
+          point.x_dec = (int)((point.x - point.x_int)*1000);
+        }
+        if(point.y<0){
+          point.y_dec = -1*(int)((point.y - point.y_int)*1000);
+        }
+        else{
+          point.y_dec = (int)((point.y - point.y_int)*1000);
+        }
+        point.z_dec = (int)((point.z - point.z_int)*1000);
+        
+        sprintf(msg,"%d.%d, %d.%d, %d.%d\r\n",point.x_int,point.x_dec,point.y_int,point.y_dec,point.z_int,point.z_dec);
+        //sprintf(msg,"%d.%d\r\n",sens_readings.sensor_decimal,sens_readings.sensor_unit);
+        //sprintf(msg,"%d.%d\r\n",(int)alpha,(int)((alpha - (int)alpha)*1000));
+        //sprintf(msg,"%d.%d\r\n",point.x_int,point.x_dec);
+        //sprintf(msg,"%d.%d\r\n",sens_readings.sensor_decimal,sens_readings.sensor_unit);
+        CDC_Transmit_FS(msg,strlen(msg));
+        motorControl_spin4Steps();
+        alpha = alpha + 0.157;
+        HAL_Delay(10);
+      }
+      motorControlSens_spin4Steps();
+      point.z = point.z + 0.2;
+
+    }
+    
+    
+    alpha = 0;
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -109,14 +179,18 @@ void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
 
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.HSEPredivValue = RCC_HSE_PREDIV_DIV1;
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL6;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -126,15 +200,69 @@ void SystemClock_Config(void)
   */
   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
                               |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK)
   {
     Error_Handler();
   }
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_ADC|RCC_PERIPHCLK_USB;
+  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV4;
+  PeriphClkInit.UsbClockSelection = RCC_USBCLKSOURCE_PLL;
+  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/**
+  * @brief ADC1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC1_Init(void)
+{
+
+  /* USER CODE BEGIN ADC1_Init 0 */
+
+  /* USER CODE END ADC1_Init 0 */
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN ADC1_Init 1 */
+
+  /* USER CODE END ADC1_Init 1 */
+
+  /** Common config
+  */
+  hadc1.Instance = ADC1;
+  hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
+  hadc1.Init.ContinuousConvMode = DISABLE;
+  hadc1.Init.DiscontinuousConvMode = DISABLE;
+  hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+  hadc1.Init.NbrOfConversion = 1;
+  if (HAL_ADC_Init(&hadc1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_0;
+  sConfig.Rank = ADC_REGULAR_RANK_1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_1CYCLE_5;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN ADC1_Init 2 */
+
+  /* USER CODE END ADC1_Init 2 */
+
 }
 
 /**
@@ -147,13 +275,14 @@ static void MX_GPIO_Init(void)
   GPIO_InitTypeDef GPIO_InitStruct = {0};
 
   /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, Motor1_dirPin_Pin|Motor1_stepPin_Pin|Motor2_dirPin_Pin|Motor2_stepPin_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : Motor1_dirPin_Pin Motor1_stepPin_Pin Motor2_dirPin_Pin Motor2_stepPin_Pin */
-  GPIO_InitStruct.Pin = Motor1_dirPin_Pin|Motor1_stepPin_Pin|Motor2_dirPin_Pin|Motor2_stepPin_Pin;
+  /*Configure GPIO pins : PA3 PA4 PA5 PA6 */
+  GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5|GPIO_PIN_6;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
